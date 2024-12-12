@@ -48,7 +48,7 @@ if(isHardMode){
             console.log(`Created new ${singularityname}`);
             singularity = singularityjson
         }
-        console.log(singularityjson)
+        console.log((sin.materialCount * 100))
     })
 }
 if(isHardMode){
