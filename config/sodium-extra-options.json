@@ -11,12 +11,9 @@
   "particle_settings": {
     "particles": true,
     "rain_splash": true,
-    "block_break": false,
-    "block_breaking": false,
-    "other": {
-      "minecraft:effect": true,
-      "minecraft:block": false
-    }
+    "block_break": true,
+    "block_breaking": true,
+    "other": {}
   },
   "detail_settings": {
     "sky": true,
@@ -31,16 +28,7 @@
     "fog_distance": 0,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
-    "dimensionFogDistance": {
-      "minecraft:overworld": 0,
-      "minecraft:the_nether": 0,
-      "rftoolsdim:effects": 0,
-      "ad_astra:mercury": 0,
-      "twilightforest:renderer": 0,
-      "minecraft:the_end": 0,
-      "ad_astra:venus": 0,
-      "ad_astra:glacio": 0
-    },
+    "dimensionFogDistance": {},
     "light_updates": true,
     "item_frame": true,
     "armor_stand": true,
@@ -52,15 +40,15 @@
     "player_name_tag": true
   },
   "extra_settings": {
-    "overlay_corner": "TOP_RIGHT",
+    "overlay_corner": "TOP_LEFT",
     "text_contrast": "NONE",
-    "show_fps": true,
+    "show_fps": false,
     "show_f_p_s_extended": true,
-    "show_coords": true,
+    "show_coords": false,
     "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
-    "cloud_height": 319,
-    "cloud_distance": 300,
+    "cloud_height": 192,
+    "cloud_distance": 100,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,

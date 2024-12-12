@@ -1,11 +1,5 @@
 
 [general]
-	#Text color in hex code format
-	text_color = "FFFFFF"
-	#Show entity name
-	show_entity_name = true
-	#Disables the rendering of the vanilla name tag
-	disable_name_tag = false
 	#Maximum distance in blocks at which health bars should render
 	max_distance = 24
 	#Maximum distance in blocks at which health bars should render without line of sight
@@ -34,6 +28,8 @@
 	group_armor = true
 	#Color health bar by mob type instead of health percentage
 	color_health_bar_by_type = false
+	#Text color in hex code format
+	text_color = "FFFFFF"
 	#Height of the text on the health bar
 	hp_text_height = 14
 	#Whether the maximum health of the mob should be shown
@@ -56,6 +52,10 @@
 	show_entity_full_health = true
 	#Show extra debug info on the bar when F3 is enabled
 	show_debug_with_f3 = true
+	#Show entity name
+	show_entity_name = true
+	#Disables the rendering of the vanilla name tag
+	disable_name_tag = false
 	#If this is enabled and the "disableNameTag" option is true, the vanilla nametag is only hidden if the mob has a Neat healthbar rendered
 	disable_name_tag_if_healthbar = true
 	#Offsets the healtbar icons on the x axis

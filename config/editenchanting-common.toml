@@ -1,5 +1,4 @@
 
-#General settings
 [general]
 	#True if item verification needs to be deactivated
 	creative_mode = false

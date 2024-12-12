@@ -211,7 +211,6 @@ const hardConfig = {
 
 
 if(isHardMode){
-// Handle the possibility that there may not be a mode.json
 let config = JsonIO.read('kubejs/data/apotheosis/bosses/overworld/zombie.json');
 if (!config) {
     JsonIO.write('kubejs/data/apotheosis/bosses/overworld/zombie.json', hardConfig);
