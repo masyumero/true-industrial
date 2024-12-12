@@ -1,0 +1,11 @@
+{
+	"name": "Divinium Ingot Block",
+	"colors": [
+		"cfcf00",
+		"ece000"
+	],
+	"ingredient": {
+		"item": "mysticalexpansion:divinium_ingot_block"
+	},
+	"materialCount": 1000
+}

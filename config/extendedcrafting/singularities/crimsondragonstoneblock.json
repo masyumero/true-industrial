@@ -1,0 +1,11 @@
+{
+	"name": "Crimson Dragonstone Block",
+	"colors": [
+		"5c0013",
+		"bf4059"
+	],
+	"ingredient": {
+		"item": "botanicalextramachinery:crimson_dragonstone_block"
+	},
+	"materialCount": 1000
+}

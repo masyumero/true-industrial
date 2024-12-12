@@ -1,0 +1,22 @@
+{
+    "type": "mekanism:reaction",
+    "itemInput": {
+      "amount": 1,
+      "ingredient": {
+        "tag": "forge:dusts/netherite"
+      }
+    },
+    "fluidInput": {
+      "amount": 1000,
+      "tag": "minecraft:water"
+    },
+    "gasInput": {
+      "amount": 1000,
+      "gas": "mekanism:spent_nuclear_waste"
+    },
+    "duration": 100,
+    "gasOutput": {
+      "gas": "mekanism:superheated_sodium",
+      "amount": 5
+    }
+  }

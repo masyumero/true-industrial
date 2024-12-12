@@ -1,0 +1,22 @@
+[
+    {
+        "type": "fluid",
+        "key": "mekanismscience:helium",
+        "rarity": "rare",
+        "create": 400,
+        "maintain": 400,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "fluid",
+        "key": "mekanismscience:beryllium",
+        "rarity": "rare",
+        "create": 400,
+        "maintain": 400,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    }
+]

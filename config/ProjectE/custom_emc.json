@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 0
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 102400
+    },
+    {
+      "item": "botanicalextramachinery:malachite_ingot",
+      "emc": 0
+    },
+    {
+      "item": "projecte:philosophers_stone_nugget",
+      "emc": 9223372036854775807
+    }
+  ]
+}

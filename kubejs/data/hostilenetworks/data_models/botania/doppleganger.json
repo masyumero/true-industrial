@@ -1,0 +1,36 @@
+{
+    "entity": "botania:doppleganger",
+    "variants": [],
+    "name": "entity.botania.doppleganger",
+    "name_color": "#cccc00",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0.5,
+    "gui_z_offset": 0,
+    "sim_cost": 16384,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:alfheim_prediction"
+    },
+    "trivia": "",
+    "fabricator_drops": [
+        {
+            "item": "botania:life_essence",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+        20,
+        100,
+        300,
+        550
+    ],
+    "data_per_kill": [
+        1,
+        1,
+        1,
+        1
+    ]
+}

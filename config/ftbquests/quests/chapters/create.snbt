@@ -1,0 +1,381 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:wrench"
+	id: "141707617FC9E353"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4351B6F6906355C0"]
+			description: ["ここからがほんとうの始まり"]
+			id: "55C0B15DB70AB1CA"
+			size: 1.5d
+			tasks: [{
+				id: "58C4B397F9C1A1CE"
+				title: "スチールケーシングができたって？"
+				type: "checkmark"
+			}]
+			title: "mekanismの始まりだ"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3366D0DB4EDD3264"
+				"090FC82E11778ACF"
+			]
+			description: ["えっ！？そんなことないって？"]
+			id: "4351B6F6906355C0"
+			subtitle: "ここが &lターニングポイント&rのようだ。"
+			tasks: [{
+				id: "1FC31660909078CF"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51291A98FADE9EE5"]
+			description: ["垂らしてるだけじゃん"]
+			id: "090FC82E11778ACF"
+			subtitle: "こんなのでいいの？"
+			tasks: [{
+				id: "44F5E210A8DBF6EE"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"17E1B3D412AEEC5A"
+				"6161112E951B89D7"
+			]
+			id: "3366D0DB4EDD3264"
+			subtitle: "パンは焼けないみたい"
+			tasks: [{
+				id: "5F62CC64739DEBE6"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "51291A98FADE9EE5"
+			subtitle: "あまりにも優れた防水性能"
+			tasks: [{
+				id: "64CD34B9A29F4A64"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"56D6A616B1AF44FB"
+				"2C28278BA65F2ECA"
+			]
+			id: "17E1B3D412AEEC5A"
+			tasks: [{
+				id: "06F44956C3390DBB"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			id: "6161112E951B89D7"
+			tasks: [{
+				id: "5D301F486A2B2ADB"
+				item: "create:industrial_iron_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56D6A616B1AF44FB"]
+			description: [
+				"スポナーから直接取れるらしい......."
+				"なんて残酷"
+			]
+			id: "2C28278BA65F2ECA"
+			subtitle: "まさかチェストから盗んだなんて言わないよね？"
+			tasks: [{
+				id: "6A282CC7A07484E7"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"29C3D78CC0A04E7A"
+				"0CE0835EE678635D"
+			]
+			id: "56D6A616B1AF44FB"
+			subtitle: "加熱が足りない"
+			tasks: [{
+				id: "398C85E616DD1704"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77B13C26DBB0D8A2"]
+			id: "29C3D78CC0A04E7A"
+			subtitle: "何を混ぜるっていうんだ？"
+			tasks: [{
+				id: "3F13BF6294186774"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77B13C26DBB0D8A2"]
+			id: "0CE0835EE678635D"
+			subtitle: "薄くしたり、まとめたり"
+			tasks: [{
+				id: "2846641FDECC681E"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CE0835EE678635D"]
+			id: "554936976D36451F"
+			subtitle: "これなくても良いってマジ？"
+			tasks: [{
+				id: "60A718C8509C5902"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C28278BA65F2ECA"]
+			id: "4DCC88CD11628F6A"
+			subtitle: "ネザー行ってきたよね.....？"
+			tasks: [{
+				id: "697D2429B67DB74C"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DCC88CD11628F6A"]
+			id: "2C48E76836B973E3"
+			subtitle: "ピッカピカ"
+			tasks: [{
+				id: "55110FC4EA5390C7"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C48E76836B973E3"]
+			description: [
+				"Deja vu"
+				"I've just been in this place before"
+			]
+			id: "322905FF0F44ED06"
+			subtitle: "ピッカピカ"
+			tasks: [{
+				id: "43B7BE25E26D3991"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"322905FF0F44ED06"
+				"4EE73F7D86BD1D99"
+			]
+			description: ["賢者の石だって作れる"]
+			id: "0A57066BF86EC152"
+			subtitle: "自動化への一歩"
+			tasks: [{
+				id: "4CF41B3B82C22B97"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"56D6A616B1AF44FB"
+				"2C28278BA65F2ECA"
+			]
+			id: "76D84B8F9DED7363"
+			subtitle: "不純物はどこへ?"
+			tasks: [{
+				id: "608DD8AA074C7449"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76D84B8F9DED7363"]
+			id: "4EE73F7D86BD1D99"
+			tasks: [{
+				id: "054F89EFCC332E17"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			description: ["腐らないの？？"]
+			id: "2366B16979CC7581"
+			subtitle: "材料に昆布？"
+			tasks: [{
+				id: "2BAB82897D42CBD1"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["77B13C26DBB0D8A2"]
+			description: ["だって小さい歯車でさえ1mあるんだもん"]
+			id: "6A487FD898DFCD82"
+			subtitle: "でかそうで小さい"
+			tasks: [{
+				id: "77678B425BE1675B"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4AE8B6F7888DC57D"]
+			id: "77B13C26DBB0D8A2"
+			tasks: [{
+				id: "191A093C6DA30BB8"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18E3FCCF2EB63FE3"]
+			id: "4AE8B6F7888DC57D"
+			subtitle: "ものすごい強度"
+			tasks: [{
+				id: "7C91D951B3BA2D9F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -2.5d
+		}
+		{
+			description: ["溶かしたりしないの？"]
+			id: "18E3FCCF2EB63FE3"
+			subtitle: "くっつけただけで？？？"
+			tasks: [{
+				id: "5A41B2C7F359DBF1"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AE8B6F7888DC57D"]
+			id: "1A08A3833321C39B"
+			subtitle: "もっと回さなきゃ"
+			tasks: [{
+				id: "2783A34B6F40A793"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1A08A3833321C39B"
+				"77B13C26DBB0D8A2"
+			]
+			id: "4F5657E5B62CF45E"
+			subtitle: "もっと便利に"
+			tasks: [{
+				id: "451C6C1A87DD0AD4"
+				item: "create_connected:crank_wheel"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51291A98FADE9EE5"]
+			id: "6976454709895669"
+			subtitle: "液体無限化への道"
+			tasks: [{
+				id: "082EDFA5F52EFC9D"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6976454709895669"]
+			id: "01DF9C8611707FA3"
+			subtitle: "1万バケツ(1000万mB)以上で無限汲み上げ"
+			tasks: [{
+				id: "6D054F89822D8C35"
+				title: "たくさん集めた？"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"ネザライトアップグレードを積むと10000mb/t"
+				"クリエアップグレードは......やめておいたほうが良さそう"
+			]
+			id: "1F5DE97B6A3C5EFD"
+			subtitle: "限界突破"
+			tasks: [{
+				id: "1D257D296FC0F203"
+				title: "pipezを使って...."
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+	]
+	title: "create"
+}

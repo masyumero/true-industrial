@@ -1,0 +1,1179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: ""
+	icon: "mekanism_extras:expand_radioactive_waste_barrel"
+	id: "2CF5FAEA4DB77548"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D4EE80DA9044E0D"]
+			id: "01D6F63EA15529AF"
+			tasks: [{
+				id: "4C8C5F4D4EC31E47"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34FC1657BAED1EE3"]
+			id: "7D4EE80DA9044E0D"
+			tasks: [{
+				id: "5F29AE23720491C4"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "34FC1657BAED1EE3"
+			tasks: [{
+				id: "5BE5E87BD6A021C0"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01D6F63EA15529AF"]
+			id: "0391B350BA9D9263"
+			tasks: [{
+				id: "2452D0903AFA88BD"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0391B350BA9D9263"]
+			id: "0C3C5C6C5D389133"
+			tasks: [{
+				id: "03996122E117DED4"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C3C5C6C5D389133"]
+			id: "080F70856B1D1D68"
+			tasks: [{
+				id: "22CADE68B4F55023"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["080F70856B1D1D68"]
+			id: "7BB898010EB50148"
+			tasks: [{
+				id: "2EE1FA2220047BDA"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A2A50BF110EDEFE"]
+			id: "617E3913457BDB71"
+			tasks: [{
+				id: "14CB89BD5D22F3F2"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704C86AEE6CCC4A0"]
+			id: "5DDE8AE80097399C"
+			tasks: [{
+				id: "4689CDD395CF76CD"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60D2EA98AEACDDCE"]
+			id: "672989FBD7F9C7DF"
+			tasks: [{
+				id: "2D79081AE3BA3C71"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46B7FDF186ED2605"]
+			id: "58B560319EE9E764"
+			tasks: [{
+				id: "5A2E19FA56C43739"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21CDD22548627293"]
+			id: "788BFC64C15134CE"
+			optional: true
+			tasks: [{
+				id: "6726866AB24C2FEB"
+				item: "mekanism_extras:absolute_tier_installer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21CDD22548627293"]
+			id: "2DE5AE0C12761DD7"
+			optional: true
+			tasks: [{
+				id: "5712C836C3C42CC0"
+				item: "mekanism_extras:supreme_tier_installer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21CDD22548627293"]
+			id: "0359F638E2B414FD"
+			optional: true
+			tasks: [{
+				id: "0A5E4989D6A954EC"
+				item: "mekanism_extras:cosmic_tier_installer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21CDD22548627293"]
+			id: "07282FD76C63F2AD"
+			optional: true
+			tasks: [{
+				id: "4A51796C1D0FC267"
+				item: "mekanism_extras:infinite_tier_installer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55F99BB1E813502C"]
+			id: "2A2A50BF110EDEFE"
+			tasks: [{
+				id: "5E8DD12872D77D5E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34FC1657BAED1EE3"
+				"2A2A50BF110EDEFE"
+			]
+			id: "704C86AEE6CCC4A0"
+			tasks: [{
+				id: "198E90047E5E7AF4"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D4EE80DA9044E0D"
+				"704C86AEE6CCC4A0"
+			]
+			id: "60D2EA98AEACDDCE"
+			subtitle: "えり～と"
+			tasks: [{
+				id: "577D4CC757B716C9"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01D6F63EA15529AF"
+				"60D2EA98AEACDDCE"
+			]
+			id: "46B7FDF186ED2605"
+			tasks: [{
+				id: "6B77BB3EE3B49E09"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46B7FDF186ED2605"
+				"0391B350BA9D9263"
+			]
+			id: "3AE7A6252D44BA3A"
+			tasks: [{
+				id: "797C5DDC10FFF9B7"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C3C5C6C5D389133"
+				"3AE7A6252D44BA3A"
+			]
+			id: "1349DD300CE76215"
+			subtitle: "calamitas"
+			tasks: [{
+				id: "2B9E3314C220D54C"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1349DD300CE76215"
+				"080F70856B1D1D68"
+			]
+			id: "6EFC1ABD0E581D15"
+			tasks: [{
+				id: "09D3BA65F7A0E949"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BB898010EB50148"
+				"6EFC1ABD0E581D15"
+			]
+			id: "421A1C4A7130FE12"
+			tasks: [{
+				id: "1420D06DB468CF70"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CEC7102B3517AA7"]
+			id: "55F99BB1E813502C"
+			tasks: [{
+				id: "0D3DFAD2458E382C"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4567733165D8DBC7"]
+			id: "54B5FBCDF34B3BB5"
+			subtitle: "素手は危ない"
+			tasks: [{
+				id: "3DBCDDB34420145E"
+				item: "mekanismscience:pellet_neutron_source"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4567733165D8DBC7"]
+			description: ["間違えても落とすなよ"]
+			id: "561BC3E33FE9BE50"
+			subtitle: "防護服は着たかい？"
+			tasks: [{
+				id: "34D875C1B44BED0B"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4567733165D8DBC7"]
+			id: "304CB184CDEAC18C"
+			subtitle: "デロリアンはどこに？"
+			tasks: [{
+				id: "1AC7F7A7274B411E"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"561BC3E33FE9BE50"
+				"304CB184CDEAC18C"
+			]
+			description: [
+				"今だけといったな？"
+				"あれは嘘だ"
+			]
+			id: "24F732E00CCD2C6A"
+			subtitle: "今だけ電力食べ美"
+			tasks: [{
+				id: "2AB0AA45F60CAA5F"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			description: ["最大18*18*18のサイズ"]
+			id: "4567733165D8DBC7"
+			subtitle: "危険な実験"
+			tasks: [{
+				id: "424F0CBD8C9AECD6"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["561BC3E33FE9BE50"]
+			description: ["燃料は.....水から作れる"]
+			id: "323C50A7C1DA539E"
+			subtitle: "超すごい発電機"
+			tasks: [{
+				id: "0D7E86A482997BAA"
+				item: "mekanismgenerators:fusion_reactor_frame"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0BABD340619B8EA1"]
+			description: ["性能はいかつい"]
+			id: "21F11AB56CBE3425"
+			subtitle: "なんか小さくて可愛いやつ"
+			tasks: [{
+				id: "1B5A1549C3F3E9E1"
+				item: "compactmekanismmachines:compact_fission_reactor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4567733165D8DBC7"]
+			id: "081BA4FD38C36F34"
+			subtitle: "危ないから捨てよう"
+			tasks: [{
+				id: "1AD4518049A240AC"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["081BA4FD38C36F34"]
+			id: "0BABD340619B8EA1"
+			subtitle: "もっと早く"
+			tasks: [{
+				id: "3F6BE831F6FFAC14"
+				item: "mekanism_extras:expand_radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["614AAEEDC8E0EBFF"]
+			id: "681B14DC9E881ABE"
+			subtitle: "組み合わせると......"
+			tasks: [{
+				id: "6E5097B741E8011D"
+				item: "compactmekanismmachines:compact_industrial_turbine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0E3A0665449CBB57"]
+			id: "614AAEEDC8E0EBFF"
+			tasks: [{
+				id: "137443B2A9752A86"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["718966E9A3248341"]
+			description: ["これもうブラックホールとかなんじゃねぇの？"]
+			id: "54E25ADBC30D23FE"
+			subtitle: "ぎゅっとしてどん"
+			tasks: [{
+				id: "12D61A5234FD91E1"
+				item: "compactmekanismmachines:compressed_wind_generator_x532480"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["116C358D7567049F"]
+			id: "718966E9A3248341"
+			tasks: [{
+				id: "7B5571EF1A577AE1"
+				item: "compactmekanismmachines:compressed_wind_generator_x131072"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3ACDD28DD636440F"]
+			id: "116C358D7567049F"
+			tasks: [{
+				id: "3A268153987CD9CC"
+				item: "compactmekanismmachines:compressed_wind_generator_x32768"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22C9F8F3440D3B73"]
+			id: "3ACDD28DD636440F"
+			tasks: [{
+				id: "2F98E6969F2613E4"
+				item: "compactmekanismmachines:compressed_wind_generator_x8192"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["531B19477A2E494E"]
+			id: "22C9F8F3440D3B73"
+			tasks: [{
+				id: "24B7E9EBDE0339DD"
+				item: "compactmekanismmachines:compressed_wind_generator_x2048"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2F7C699FCF7B29C8"]
+			id: "531B19477A2E494E"
+			tasks: [{
+				id: "60F9B3E0E19F0506"
+				item: "compactmekanismmachines:compressed_wind_generator_x512"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70AB8B9E51DF3C6C"]
+			id: "2F7C699FCF7B29C8"
+			tasks: [{
+				id: "1590CC18BAFF66E1"
+				item: "compactmekanismmachines:compressed_wind_generator_x128"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["73D0D0849FBFD901"]
+			id: "70AB8B9E51DF3C6C"
+			tasks: [{
+				id: "4431BD76F27CF595"
+				item: "compactmekanismmachines:compressed_wind_generator_x32"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4F9F32506F055C55"]
+			id: "73D0D0849FBFD901"
+			tasks: [{
+				id: "20F353C02D1A85BB"
+				item: "compactmekanismmachines:compressed_wind_generator_x8"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0D09573F77EE7BBD"]
+			id: "4F9F32506F055C55"
+			tasks: [{
+				id: "62B4DBDC219EEF91"
+				item: "compactmekanismmachines:compressed_wind_generator_x2"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2A2A50BF110EDEFE"]
+			id: "0D09573F77EE7BBD"
+			subtitle: "もっと回せ"
+			tasks: [{
+				id: "048279286C0699E0"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["34FC1657BAED1EE3"]
+			id: "74E72A6A589D88CC"
+			subtitle: "月の光じゃダメなの？"
+			tasks: [{
+				id: "18C1A97DC43C43D9"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.0d
+		}
+		{
+			id: "129210422A7A2781"
+			subtitle: "溶岩を近くに"
+			tasks: [{
+				id: "74BEA6F6478765EF"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["74E72A6A589D88CC"]
+			id: "3E816453F8C858A3"
+			tasks: [{
+				id: "694F00AD54BE303C"
+				item: "solarpanels:advanced_solar_panel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3E816453F8C858A3"]
+			id: "1F46BF3515BCC654"
+			tasks: [{
+				id: "1C1D1C25E2752746"
+				item: "solarpanels:hybrid_solar_panel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1F46BF3515BCC654"]
+			id: "13A9FE88C93A1C3B"
+			tasks: [{
+				id: "42880B19175593D4"
+				item: "solarpanels:ultimate_hybrid_solar_panel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13A9FE88C93A1C3B"]
+			id: "44A3FCB4A9D1FED3"
+			tasks: [{
+				id: "3F56AE55019BA919"
+				item: "solarpanels:quantum_solar_panel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["44A3FCB4A9D1FED3"]
+			id: "27D70607E31A979F"
+			tasks: [{
+				id: "152ED4573A6A6133"
+				item: "solarpanels:spectral_solar_panel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["27D70607E31A979F"]
+			id: "67AF13E5D35D5059"
+			tasks: [{
+				id: "52B2062CF5E8058C"
+				item: "solarpanels:singular_solar_panel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["67AF13E5D35D5059"]
+			id: "020128191FFC4B96"
+			tasks: [{
+				id: "116776BEA2FEB689"
+				item: "solarpanels:light_absorbing_solar_panel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["020128191FFC4B96"]
+			description: ["カタカナ"]
+			id: "6301346ED6CE5A5B"
+			subtitle: "ウランとネザーのカ"
+			tasks: [{
+				id: "5DDDD5FD9A8C77C1"
+				item: "solarpanels:photonic_solar_panel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			id: "4CEC7102B3517AA7"
+			subtitle: "焼き尽くせ(鉱物を)"
+			tasks: [{
+				id: "7DE6CE840223598B"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C622278E613EB57"]
+			description: ["エチレンガス発電はいいぞぉ"]
+			id: "29D3FFAD2EDA2897"
+			subtitle: "序盤にはこれ"
+			tasks: [{
+				id: "1717E92BCF7F7F74"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4CEC7102B3517AA7"]
+			id: "5C622278E613EB57"
+			tasks: [{
+				id: "6F0F271B817A21EC"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "6A6AE783234E93EE"
+			tasks: [{
+				id: "19A8888535B7138A"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A6AE783234E93EE"
+				"34FC1657BAED1EE3"
+			]
+			id: "2B2E562D9C71AAEF"
+			tasks: [{
+				id: "3866BA5E277C5F7B"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2B2E562D9C71AAEF"
+				"7D4EE80DA9044E0D"
+			]
+			id: "3458450C1AB3BCF7"
+			tasks: [{
+				id: "3EF4042E804D222E"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3458450C1AB3BCF7"
+				"01D6F63EA15529AF"
+			]
+			id: "24646348B3C57BD7"
+			tasks: [{
+				id: "55FD1C36C64DFDD3"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"24646348B3C57BD7"
+				"0391B350BA9D9263"
+			]
+			id: "31E3B6DF9B59DEF4"
+			tasks: [{
+				id: "0D0B51FF863E2990"
+				item: "mekanism_extras:absolute_universal_cable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"31E3B6DF9B59DEF4"
+				"0C3C5C6C5D389133"
+			]
+			id: "01D48D4BD7FF7714"
+			tasks: [{
+				id: "2DF709E0B0321425"
+				item: "mekanism_extras:supreme_universal_cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"01D48D4BD7FF7714"
+				"080F70856B1D1D68"
+			]
+			id: "3924F57C586C9A03"
+			tasks: [{
+				id: "7616EDA383B63A5C"
+				item: "mekanism_extras:cosmic_universal_cable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3924F57C586C9A03"
+				"7BB898010EB50148"
+			]
+			id: "78D5739E761B7FFE"
+			tasks: [{
+				id: "6A56C656647E659C"
+				item: "mekanism_extras:infinite_universal_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A2A50BF110EDEFE"]
+			id: "4710DE1FFD538818"
+			tasks: [{
+				id: "017C3D7227B1D1E1"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34FC1657BAED1EE3"]
+			id: "19301FFAE0A07C53"
+			tasks: [{
+				id: "2FD155302CA5192D"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D4EE80DA9044E0D"]
+			id: "2DEE2A0678A3B1B5"
+			tasks: [{
+				id: "17C034C51AC4871E"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01D6F63EA15529AF"]
+			id: "5ABDEEFDAD683EDE"
+			tasks: [{
+				id: "3376486CB61999A2"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0391B350BA9D9263"]
+			id: "5683139AB247B2B8"
+			tasks: [{
+				id: "0BD8F01B11574C88"
+				item: "mekanism_extras:absolute_logistical_transporter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0C3C5C6C5D389133"]
+			id: "1EE5E3AE1C614419"
+			tasks: [{
+				id: "7CF844C27BEE34DE"
+				item: "mekanism_extras:supreme_logistical_transporter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["080F70856B1D1D68"]
+			id: "2B33B48FC8AB9537"
+			tasks: [{
+				id: "20B2EE69A962AC9A"
+				item: "mekanism_extras:cosmic_logistical_transporter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BB898010EB50148"]
+			id: "33F56D3DED4507D8"
+			tasks: [{
+				id: "2872720E39C7ED56"
+				item: "mekanism_extras:infinite_logistical_transporter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A2A50BF110EDEFE"]
+			id: "1076CEEA25453DD1"
+			tasks: [{
+				id: "03F9517B03859254"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["34FC1657BAED1EE3"]
+			id: "60090049C43BB98C"
+			tasks: [{
+				id: "602DE6858478D3BC"
+				item: "mekanism:advanced_mechanical_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7D4EE80DA9044E0D"]
+			id: "3F107DBE0D22AF46"
+			tasks: [{
+				id: "6DC79EB606E69BC1"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01D6F63EA15529AF"]
+			id: "388141A43A0A940B"
+			tasks: [{
+				id: "5E288DE921D71DDB"
+				item: "mekanism:ultimate_mechanical_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0391B350BA9D9263"]
+			id: "21F8025A1A4C3678"
+			tasks: [{
+				id: "350630AB12213B90"
+				item: "mekanism_extras:absolute_mechanical_pipe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0C3C5C6C5D389133"]
+			id: "1649FDC50D8B1F29"
+			tasks: [{
+				id: "7266871360355599"
+				item: "mekanism_extras:supreme_mechanical_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["080F70856B1D1D68"]
+			id: "50F0D93F4DED3C3E"
+			tasks: [{
+				id: "2BE9E10880A299FB"
+				item: "mekanism_extras:cosmic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7BB898010EB50148"]
+			id: "5F45315D5E4B5B73"
+			tasks: [{
+				id: "311D1A457BCBA4D1"
+				item: "mekanism_extras:infinite_mechanical_pipe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A2A50BF110EDEFE"]
+			id: "4F82DA576318B6BE"
+			tasks: [{
+				id: "229E36582ACC56B5"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["34FC1657BAED1EE3"]
+			id: "0DC955A76EB4B7F9"
+			tasks: [{
+				id: "7E04BB095F1F591E"
+				item: "mekanism:advanced_pressurized_tube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7D4EE80DA9044E0D"]
+			id: "676ACF0A6BA25723"
+			tasks: [{
+				id: "4513285291466ADF"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01D6F63EA15529AF"]
+			id: "059E73628A91A80A"
+			tasks: [{
+				id: "5C8D6334A11C3268"
+				item: "mekanism:ultimate_pressurized_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0391B350BA9D9263"]
+			id: "5E1DF50B1ADB53A4"
+			tasks: [{
+				id: "373B5D49A288836F"
+				item: "mekanism_extras:absolute_pressurized_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0C3C5C6C5D389133"]
+			id: "6BDAD0A2747C07CF"
+			tasks: [{
+				id: "63DB5228957F095D"
+				item: "mekanism_extras:supreme_pressurized_tube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["080F70856B1D1D68"]
+			id: "577A5758B919E63B"
+			tasks: [{
+				id: "773B8C051897B182"
+				item: "mekanism_extras:cosmic_pressurized_tube"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7BB898010EB50148"]
+			id: "5CE864EC7937943C"
+			tasks: [{
+				id: "6FBC072A79ABC2BE"
+				item: "mekanism_extras:infinite_pressurized_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"421A1C4A7130FE12"
+				"1349DD300CE76215"
+				"3AE7A6252D44BA3A"
+				"6EFC1ABD0E581D15"
+			]
+			description: ["使い道は未実装"]
+			id: "21CDD22548627293"
+			size: 1.0d
+			subtitle: "別にやらなくてもいいんやで"
+			tasks: [{
+				id: "743930FF07B840D1"
+				title: "チェック"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24F732E00CCD2C6A"]
+			id: "52CDCE15A446BF6F"
+			subtitle: "より早くより多く"
+			tasks: [{
+				id: "3B9A6CD15E883057"
+				item: "mekanism:super_sps_casing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["323C50A7C1DA539E"]
+			id: "022A587B3A5EE4B5"
+			subtitle: "電力はもう十分....じゃあこれは??"
+			tasks: [{
+				id: "63EB7A80F20A97A6"
+				item: "mekanism_extras:naquadah_reactor_casing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["022A587B3A5EE4B5"]
+			id: "6F4176C49B446FD1"
+			subtitle: "設置可能な放射性物質"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism_extras:polonium-208"
+				id: "58F47EB0A28008E1"
+				type: "fluid"
+			}]
+			x: 17.5d
+			y: 15.5d
+		}
+		{
+			id: "0E3A0665449CBB57"
+			subtitle: "水を電気に"
+			tasks: [{
+				id: "6B01BACA7212E66E"
+				item: "mekanism:boiler_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["24F732E00CCD2C6A"]
+			id: "3ECFE2CEAA159A61"
+			subtitle: "こんな保管方法で...."
+			tasks: [{
+				id: "0D4EB11259A886F1"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3ECFE2CEAA159A61"]
+			id: "5D52A06C7FB804E8"
+			subtitle: "反物質を塗りたくる"
+			tasks: [{
+				id: "52EAE7BBE62D6A45"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.0d
+		}
+	]
+	title: "mekanism"
+}

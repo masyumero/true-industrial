@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_reborn"
+	group: ""
+	icon: "techreborn:industrial_machine_frame"
+	id: "68AA8A5A6131925F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "73A320A0D63625EC"
+		subtitle: "ある程度万能"
+		tasks: [{
+			id: "1B6B9FEC495E9FD9"
+			item: "techreborn:uu_matter"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Tech Reborn"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Mega Upgrade Augment",
+	"colors": [
+		"6c50af",
+		"6e0100"
+	],
+	"ingredient": {
+		"item": "thermal_more:mega_upgrade_augment"
+	},
+	"materialCount": 1000
+}

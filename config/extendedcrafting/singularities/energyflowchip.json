@@ -1,0 +1,11 @@
+{
+	"name": "Energy Flow Chip",
+	"colors": [
+		"479cc8",
+		"afb5b7"
+	],
+	"ingredient": {
+		"item": "techreborn:energy_flow_chip"
+	},
+	"materialCount": 1000
+}

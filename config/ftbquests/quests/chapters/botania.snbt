@@ -1,0 +1,1319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: ""
+	icon: "botania:lexicon"
+	id: "1CE3BFCF4AD77A99"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4962BAADC22C3BE9"
+				"5AC1F8B6E5A31AB5"
+			]
+			description: [
+				"ボタニア植物辞典にもそう書いてある"
+				"{image:kubejs:textures/image.png width:192 height:56 align:center}"
+			]
+			id: "628E7E90FC38B71C"
+			subtitle: "これでも魔術MODっていうのか？"
+			tasks: [{
+				id: "6E4774C17B7A44B8"
+				item: "botanicalextramachinery:crimson_spark"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["628E7E90FC38B71C"]
+			id: "071238C12D768207"
+			subtitle: "欲張りだね"
+			tasks: [{
+				id: "1E5A0BD3F61DC0DD"
+				item: "botanicalextramachinery:catalyst_mana_infinity"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7971459D217EE358"
+				"205D88459D3453BB"
+			]
+			id: "4962BAADC22C3BE9"
+			tasks: [{
+				id: "0742FE76ABA7060D"
+				item: "botanicalextramachinery:shadow_spark"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5D4A8E89FD8D209E"
+				"6DEB5364D8B7D616"
+			]
+			id: "7971459D217EE358"
+			tasks: [{
+				id: "4D3E861712B291CE"
+				item: "botanicalextramachinery:saffron_spark"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["116E588713C1896B"]
+			id: "5D4A8E89FD8D209E"
+			tasks: [{
+				id: "42AD0D9A2E8FB3F3"
+				item: "botanicalextramachinery:malachite_spark"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["565AEC26DE4EC724"]
+			id: "116E588713C1896B"
+			tasks: [{
+				id: "7C99D2D4E5505706"
+				item: "botanicalextramachinery:malachite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["116E588713C1896B"]
+			id: "6DEB5364D8B7D616"
+			tasks: [{
+				id: "774A68384D2A4B64"
+				item: "botanicalextramachinery:saffron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DEB5364D8B7D616"]
+			id: "205D88459D3453BB"
+			tasks: [{
+				id: "787D45A8DC0ECF86"
+				item: "botanicalextramachinery:shadow_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["205D88459D3453BB"]
+			id: "5AC1F8B6E5A31AB5"
+			tasks: [{
+				id: "37A0EF5BCECC6D22"
+				item: "botanicalextramachinery:crimson_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D78128C88082665"]
+			id: "565AEC26DE4EC724"
+			subtitle: "向こう側にはいけないのか？"
+			tasks: [{
+				id: "09C49B52CE4755D2"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["13DB1D7C49A0DBF0"]
+			id: "77169E8DF8F28A91"
+			subtitle: "マナを貯めて....."
+			tasks: [{
+				id: "200555E87142EB45"
+				item: "mythicbotany:yggdrasil_branch"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["565AEC26DE4EC724"]
+			id: "13DB1D7C49A0DBF0"
+			tasks: [{
+				id: "1A9558537AD2E1B7"
+				item: "mythicbotany:gjallar_horn_empty"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["77169E8DF8F28A91"]
+			id: "0B222BC8B385D28A"
+			subtitle: "あなたは知識を手に入れた"
+			tasks: [{
+				id: "56641B7264E92E96"
+				item: "mythicbotany:gjallar_horn_full"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0B222BC8B385D28A"]
+			id: "206706CFE0D4F265"
+			tasks: [{
+				id: "2C88CC4B753A0477"
+				item: "mythicbotany:fimbultyr_tablet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B222BC8B385D28A"]
+			id: "7297C972439D6A67"
+			tasks: [{
+				id: "1801BF6DE1081826"
+				item: "mythicbotany:rune_holder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0B222BC8B385D28A"]
+			id: "0B0D7D3E784D37E1"
+			tasks: [{
+				id: "1506C498462ABBD7"
+				item: "mythicbotany:central_rune_holder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"206706CFE0D4F265"
+				"7297C972439D6A67"
+				"0B0D7D3E784D37E1"
+			]
+			id: "09263F5779E8B83F"
+			subtitle: "その力を手にするために"
+			tasks: [{
+				id: "12575817023DDCD2"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09263F5779E8B83F"]
+			icon: {
+				Count: 1
+				id: "mythicbotany:alfsteel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C5FFFA7C3F40F3D"
+			subtitle: "向こう側にたどり着いた"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "38D22CA534D880E1"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["565AEC26DE4EC724"]
+			id: "317D728C4EBA3ED4"
+			subtitle: "ネザーのちから"
+			tasks: [{
+				id: "304035137911DAD2"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["565AEC26DE4EC724"]
+			id: "4498BFECCAE519F3"
+			subtitle: "より良い輸送手段"
+			tasks: [{
+				id: "2C05FB57F08374A0"
+				item: "mythicbotany:mana_collector"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"4CE6D9C664215A09"
+				"185F996586153CA0"
+			]
+			id: "7D78128C88082665"
+			subtitle: "取引の準備"
+			tasks: [{
+				id: "000900655ED803F9"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7D78128C88082665"]
+			description: ["もっとよく読んでおこう"]
+			id: "7051E577645D626A"
+			subtitle: "botaniaのすべてがここに"
+			tasks: [{
+				id: "64BE6E8282135B0D"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7AB4AC7256CFBC82"
+				"7D78128C88082665"
+			]
+			id: "30229C9AC51312D2"
+			tasks: [{
+				id: "6EE50E39E4E8BE9C"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["187F2472BCD9DBA6"]
+			id: "7AB4AC7256CFBC82"
+			tasks: [{
+				id: "6F0132DFCC9BF071"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["565AEC26DE4EC724"]
+			id: "187F2472BCD9DBA6"
+			tasks: [{
+				id: "04DCC65264EC5448"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3677E991A85B43D2"
+				"7E00C0628454B017"
+			]
+			id: "185F996586153CA0"
+			subtitle: "python??(難聴)"
+			tasks: [{
+				id: "60266733F112BBFB"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["25C49171EAF3A6A7"]
+			id: "4CE6D9C664215A09"
+			subtitle: "テ◯リア"
+			tasks: [{
+				id: "29E583AF74E4A960"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3677E991A85B43D2"]
+			id: "25C49171EAF3A6A7"
+			tasks: [{
+				id: "1FA7557F2DECD052"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1EB74AAACADCA3C2"]
+			id: "3677E991A85B43D2"
+			subtitle: "なんて魔力の量なんだ"
+			tasks: [{
+				id: "336177BEE40FF227"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EB74AAACADCA3C2"]
+			id: "7E00C0628454B017"
+			subtitle: "つのがはえててかわいい"
+			tasks: [{
+				id: "3D880B95728B817B"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1EB74AAACADCA3C2"]
+			id: "312817B86C89B93C"
+			subtitle: "投げて.....投げられない？？"
+			tasks: [{
+				id: "0E2DEF0C1C27373D"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["75594ADD263EE98A"]
+			id: "1EB74AAACADCA3C2"
+			subtitle: "魔術？？"
+			tasks: [{
+				id: "1D094878F387D529"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30229C9AC51312D2"]
+			id: "7DFBA93C68E581BD"
+			subtitle: "あれは....."
+			tasks: [{
+				id: "353D9B0377AA13A9"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7DFBA93C68E581BD"]
+			id: "2FF53429F68F67F5"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "0A806A04EFFEE25F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FF53429F68F67F5"]
+			id: "6EA80C7BBC2F2226"
+			subtitle: "第一形態"
+			tasks: [{
+				id: "69DC245A7D3BC60E"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FF53429F68F67F5"]
+			id: "4FF439BF23E9F21E"
+			subtitle: "お風呂の温度は1d100℃"
+			tasks: [{
+				count: 6L
+				id: "105DFF390FDD2189"
+				item: "botania:dice"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6EA80C7BBC2F2226"]
+			id: "545C198B9A8C1463"
+			subtitle: "神霊を固めたもの？？？"
+			tasks: [{
+				id: "45DC29A8A60401F3"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13E2C529A9E3D3E9"]
+			description: ["mekasuitの材料"]
+			id: "5F9492099F308C0A"
+			subtitle: "テラリアンのための装備"
+			tasks: [
+				{
+					id: "52940CDFF454156B"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "695C984D607F75C8"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A3EC793D6AEF60F"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "668C4A1DC8EC48EF"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "テラスチールの装備"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E2E4C469911CC8C"]
+			id: "13E2C529A9E3D3E9"
+			subtitle: "鉄とマナの味"
+			tasks: [
+				{
+					id: "38B394938A6DDE26"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09CEBA7C31D501CA"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63BFD67204C66E2B"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51443AE1381F888B"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "マナスチールの装備"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F9492099F308C0A"
+				"2D7109D9E67B78D2"
+			]
+			id: "0A80DCF266644013"
+			tasks: [
+				{
+					id: "3C134A4ABA6D84FD"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A20E929B40A77E"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20088ADE98A7076C"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04B126C564A79AC1"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "アルフスチールの装備"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "2D7109D9E67B78D2"
+			subtitle: "なぜこれを持っているの？"
+			tasks: [{
+				id: "68DD5D8596A69BF4"
+				item: "mythicbotany:alfsteel_template"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A1B44B90B6CBF56"]
+			id: "775F990702C4806B"
+			subtitle: "これから使うからね"
+			tasks: [{
+				id: "724ECDEAB3C37A49"
+				title: "ルーンは集めた？"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["185F996586153CA0"]
+			id: "5A1B44B90B6CBF56"
+			tasks: [{
+				id: "1273B6A1DC88BB27"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FF439BF23E9F21E"]
+			id: "17CBFC00F75BDE2A"
+			subtitle: "お腹いっぱいになるまで"
+			tasks: [{
+				id: "0024AC8A2E48D2A6"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF439BF23E9F21E"]
+			id: "20A60FAC7288E9EB"
+			subtitle: "()E"
+			tasks: [{
+				id: "42F56315BFEA2499"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF439BF23E9F21E"]
+			id: "342F96A179689752"
+			subtitle: "ハズレ"
+			tasks: [{
+				id: "3CF2A578AF585E64"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF439BF23E9F21E"]
+			id: "7C4359831CF94D94"
+			subtitle: "ハズレ"
+			tasks: [{
+				id: "2FAC9CC0D2F8278D"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF439BF23E9F21E"]
+			id: "2D62D925A507472F"
+			subtitle: "ハズレ"
+			tasks: [{
+				id: "05931007283EFC2F"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF439BF23E9F21E"]
+			id: "3AD733C20A03ED9E"
+			subtitle: "まぁあたりかな"
+			tasks: [{
+				id: "6D89D2F8C6094134"
+				item: {
+					Count: 1
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							893999069
+							-1400946522
+							-1213210867
+							-1666601680
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "6E2E4C469911CC8C"
+			tasks: [{
+				id: "47E39C4A9436FE20"
+				title: "自分を強化する時間だ"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["325C5B593622C685"]
+			id: "75594ADD263EE98A"
+			subtitle: "家のリビングにこんなものが"
+			tasks: [{
+				id: "5A938E18B149AC79"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["325C5B593622C685"]
+			id: "037D834AD17CBB2E"
+			subtitle: "これが私の色!!"
+			tasks: [{
+				id: "386607B0086EE0A7"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["72BF06A107D9CD36"]
+			id: "325C5B593622C685"
+			subtitle: "人工的な花"
+			tasks: [{
+				id: "378D2A826BAD6123"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0650BE104E551784"]
+			id: "72BF06A107D9CD36"
+			subtitle: "花をちぎって花にする"
+			tasks: [{
+				id: "1AD4DFF30C92A928"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["36E176CC352DCFC7"]
+			id: "0650BE104E551784"
+			subtitle: "そこにもあそこにもあるよ"
+			tasks: [{
+				id: "3CE8B582C85C3B58"
+				title: "花を集めよう"
+				type: "checkmark"
+			}]
+			title: "神秘的な花を集めよう"
+			x: -28.5d
+			y: -6.5d
+		}
+		{
+			description: ["よく読んでおこう"]
+			id: "36E176CC352DCFC7"
+			subtitle: "見つけた!!"
+			tasks: [{
+				id: "4F3FE1D1BA907834"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["565AEC26DE4EC724"]
+			description: ["星がいっぱいクソボケ"]
+			id: "0A5D8A14B5DBC32A"
+			subtitle: "あっ星だ"
+			tasks: [{
+				id: "0E46637F6BEB5047"
+				item: "botania:starfield"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "7131EEBA9CDA7FB9"
+			tasks: [{
+				id: "0E596CFAC3B465E2"
+				title: "自動化の時間だァァ"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "4D547D341872FAFE"
+			subtitle: "はじめの一歩"
+			tasks: [{
+				id: "651A1059A9758AD0"
+				item: "botanicalmachinery:mechanical_mana_pool"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "6B44DB4DB69EA8C8"
+			tasks: [{
+				id: "6D9BE9686C47AEB7"
+				item: "botanicalmachinery:mechanical_apothecary"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "49AC25DA65AD7E01"
+			tasks: [{
+				id: "17A148488A634BE5"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "48F9DE302543FB61"
+			tasks: [{
+				id: "57BF6220E09B33A4"
+				item: "botanicalmachinery:alfheim_market"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "36B9F4AB47A1C61B"
+			tasks: [{
+				id: "09EE79BDEEC408EA"
+				item: "botanicalmachinery:mechanical_daisy"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "401F60858C62DD77"
+			tasks: [{
+				id: "32F86C503104D651"
+				item: "botanicalmachinery:mechanical_brewery"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "7C0519D0BFD27318"
+			tasks: [{
+				id: "6DCE5106FDE95EE6"
+				item: "botanicalmachinery:mechanical_runic_altar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4D547D341872FAFE"
+				"2E8F271E5CECA381"
+			]
+			id: "72ECC8D0714083F5"
+			tasks: [{
+				id: "5F5A11067DF7D7C0"
+				item: "botanicalextramachinery:base_mana_pool"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B44DB4DB69EA8C8"
+				"2E8F271E5CECA381"
+			]
+			id: "537154A604823971"
+			tasks: [{
+				id: "31DE2D4A1B3691D4"
+				item: "botanicalextramachinery:base_apothecary"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"49AC25DA65AD7E01"
+				"2E8F271E5CECA381"
+			]
+			id: "513A21B2E2E0DF5A"
+			tasks: [{
+				id: "52F7E186CA168D88"
+				item: "botanicalextramachinery:base_industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"48F9DE302543FB61"
+				"2E8F271E5CECA381"
+			]
+			id: "2A8BE1AE446324A0"
+			tasks: [{
+				id: "44E2A050D96ECD85"
+				item: "botanicalextramachinery:base_alfheim_market"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"36B9F4AB47A1C61B"
+				"2E8F271E5CECA381"
+			]
+			id: "3E99A4B3FB62B6E2"
+			tasks: [{
+				id: "7AB3744220777B51"
+				item: "botanicalextramachinery:base_daisy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7C0519D0BFD27318"
+				"2E8F271E5CECA381"
+			]
+			id: "29ABC77B2D5C81E0"
+			tasks: [{
+				id: "1D23C8DBB08A0659"
+				item: "botanicalextramachinery:base_runic_altar"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "75359CA48BCF5413"
+			tasks: [{
+				id: "0A5A42093EDCCC90"
+				item: "botanicalextramachinery:jaded_amaranthus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "0B2A828D8A68FE2F"
+			subtitle: "マナを生み出す花とそれが好むものに電気を与えて..."
+			tasks: [{
+				id: "2AC6C5161AC63E8E"
+				item: "botanicalextramachinery:greenhouse"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72ECC8D0714083F5"]
+			id: "15D1637C81FF9A4D"
+			tasks: [{
+				id: "75B81601B894D92D"
+				item: "botanicalextramachinery:upgraded_mana_pool"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D1637C81FF9A4D"]
+			id: "5072F2A5E1030970"
+			tasks: [{
+				id: "2119386241C0EC01"
+				item: "botanicalextramachinery:advanced_mana_pool"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5072F2A5E1030970"]
+			id: "169EDDD1F7CA3F2C"
+			tasks: [{
+				id: "44BFFC4F69B75E13"
+				item: "botanicalextramachinery:ultimate_mana_pool"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537154A604823971"]
+			id: "6B41CC1F7CBCFC7C"
+			tasks: [{
+				id: "7C5F55DDD9EE0F7F"
+				item: "botanicalextramachinery:upgraded_apothecary"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B41CC1F7CBCFC7C"]
+			id: "6C39BAF54B858BA6"
+			tasks: [{
+				id: "24C36490A2D7F04A"
+				item: "botanicalextramachinery:advanced_apothecary"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C39BAF54B858BA6"]
+			id: "34B3F5D9F7F6979F"
+			tasks: [{
+				id: "6F9AEC696E8232FE"
+				item: "botanicalextramachinery:ultimate_apothecary"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513A21B2E2E0DF5A"]
+			id: "53EA85611A798C99"
+			tasks: [{
+				id: "59D05F854C6B215C"
+				item: "botanicalextramachinery:upgraded_industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53EA85611A798C99"]
+			id: "520739C9693F9C9B"
+			tasks: [{
+				id: "28AF575C77902F9B"
+				item: "botanicalextramachinery:advanced_industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["520739C9693F9C9B"]
+			id: "5D94118086E7FDB8"
+			tasks: [{
+				id: "569CF52ADCE1345E"
+				item: "botanicalextramachinery:ultimate_industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A8BE1AE446324A0"]
+			id: "7F52FC10B670A87D"
+			tasks: [{
+				id: "7BB8A87E702116F4"
+				item: "botanicalextramachinery:upgraded_alfheim_market"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F52FC10B670A87D"]
+			id: "66C2CB94179BEC3F"
+			tasks: [{
+				id: "6380D64A5CAF22F8"
+				item: "botanicalextramachinery:advanced_alfheim_market"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66C2CB94179BEC3F"]
+			id: "2BADD19297628660"
+			tasks: [{
+				id: "4510E9B6B43F58E4"
+				item: "botanicalextramachinery:ultimate_alfheim_market"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E99A4B3FB62B6E2"]
+			id: "410D24BAFB9720A8"
+			tasks: [{
+				id: "0E4D21F34B3E3E20"
+				item: "botanicalextramachinery:upgraded_daisy"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["410D24BAFB9720A8"]
+			id: "52E76A3E928BDC51"
+			tasks: [{
+				id: "48F2B27F7EEB0529"
+				item: "botanicalextramachinery:advanced_daisy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["52E76A3E928BDC51"]
+			id: "2DFCA709C5AB8612"
+			tasks: [{
+				id: "6B154A7D8405534D"
+				item: "botanicalextramachinery:ultimate_daisy"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29ABC77B2D5C81E0"]
+			id: "0CB5D239052AFF1F"
+			tasks: [{
+				id: "333A08D8DA2E50A3"
+				item: "botanicalextramachinery:upgraded_runic_altar"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0CB5D239052AFF1F"]
+			id: "242FB58621CC8825"
+			tasks: [{
+				id: "5F7B90CBFA5E3D9C"
+				item: "botanicalextramachinery:advanced_runic_altar"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["242FB58621CC8825"]
+			id: "79011A470493CF26"
+			tasks: [{
+				id: "1C5AF390B3B5C870"
+				item: "botanicalextramachinery:ultimate_runic_altar"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7131EEBA9CDA7FB9"]
+			id: "69924ACE1ACA7170"
+			tasks: [{
+				id: "0FE5B3B4D6F0EA66"
+				item: "botanicalextramachinery:base_orechid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69924ACE1ACA7170"]
+			id: "249FF31118D5BD8D"
+			tasks: [{
+				id: "366AAF3E4E39C70B"
+				item: "botanicalextramachinery:upgraded_orechid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["249FF31118D5BD8D"]
+			id: "2521FF26C9B6D60A"
+			tasks: [{
+				id: "746F099F445D15C2"
+				item: "botanicalextramachinery:advanced_orechid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2521FF26C9B6D60A"]
+			id: "057F9A81CD794AF9"
+			tasks: [{
+				id: "403C5AA53490B9C1"
+				item: "botanicalextramachinery:ultimate_orechid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"36B9F4AB47A1C61B"
+				"49AC25DA65AD7E01"
+				"48F9DE302543FB61"
+				"4D547D341872FAFE"
+				"6B44DB4DB69EA8C8"
+				"7C0519D0BFD27318"
+			]
+			description: ["それ以前はパイプで搬出するようにしようね"]
+			id: "2E8F271E5CECA381"
+			subtitle: "基本以降の機械はパターンプロバイダと隣接させるだけでok"
+			tasks: [{
+				id: "4DC1F408679591FB"
+				title: "AE2との連携"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+	]
+	title: "botania"
+}

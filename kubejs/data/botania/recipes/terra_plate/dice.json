@@ -1,0 +1,27 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botanicalextramachinery:crimson_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "hostilenetworks:alfheim_prediction"
+    }
+  ],
+  "mana": 2000000,
+  "result": {
+    "item": "botania:dice"
+  }
+}

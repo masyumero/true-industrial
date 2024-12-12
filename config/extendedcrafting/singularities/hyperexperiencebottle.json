@@ -1,0 +1,11 @@
+{
+	"name": "Hyper Experience Bottle",
+	"colors": [
+		"1586e4",
+		"2cffed"
+	],
+	"ingredient": {
+		"item": "create_enchantment_industry:hyper_experience_bottle"
+	},
+	"materialCount": 1000
+}

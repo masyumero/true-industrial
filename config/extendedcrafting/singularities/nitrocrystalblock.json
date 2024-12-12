@@ -1,0 +1,11 @@
+{
+	"name": "Nitro Crystal Block",
+	"colors": [
+		"4a0200",
+		"bb1c22"
+	],
+	"ingredient": {
+		"item": "powah:nitro_crystal_block"
+	},
+	"materialCount": 1000
+}

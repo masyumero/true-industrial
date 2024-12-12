@@ -1,0 +1,76 @@
+{
+	"entity": "minecraft:wither",
+	"weight": 80,
+	"size": {
+		"width": 1,
+		"height": 3
+	},
+	"valid_gear_sets": [
+		"#the_end"
+	],
+	"dimensions": [
+		"minecraft:the_end"
+	],
+	"min_rarity": "mythic",
+	"max_rarity": "mythic",
+	"stats": {
+		"mythic": {
+			"enchant_chance": 0.90,
+			"enchantment_levels": [32, 50, 80, 100],
+			"effects": [
+                {
+				    "effect": "minecraft:fire_resistance",
+				    "chance": 1.0
+			    },
+                {
+                    "effect": "minecraft:regeneration",
+                    "chance": 0.6
+                }
+            ],
+			"attribute_modifiers": [{
+                
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 1000,
+						"steps": 40,
+						"step": 5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.3,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.7,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.95
+				},
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "ADDITION",
+					"value": 6
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "ADDITION",
+					"value": 3
+				}
+			]
+		}
+	}
+}

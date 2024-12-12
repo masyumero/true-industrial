@@ -1,0 +1,51 @@
+ServerEvents.recipes(e=>{
+    e.custom({
+        "type":"mekanism:reaction",
+        "duration":5,
+        "energyRequired":1000,
+        "fluidInput":
+        {
+          "amount":10,
+          "fluid":"minecraft:water"
+        },
+        "gasInput":
+        {
+          "amount":100,
+          "gas":"mekanism_matter:gases_universal_matter"
+        },
+        "gasOutput":
+        {
+          "amount":1,
+          "gas":"draconicevolution:chaos"
+        },
+        "itemInput":
+        {
+          "ingredient":
+          {
+            "amount":5,
+            "item":"draconicadditions:chaos_heart"
+          }
+        },
+        "itemOutput":
+        {
+            "count":10,
+            "item":"draconicevolution:chaos_shard"
+        }
+      })
+    e.custom({
+        "type": "mekanism:nucleosynthesizing",
+        "itemInput":{
+            "ingredient":{
+                item:"minecraft:echo_shard"
+            }
+        },
+        "gasInput": {
+            amount:100,
+            gas:"mekanism:antimatter"
+        },
+        "output": {
+            item:"draconicevolution:chaos_shard"
+        },
+        "duration": 1000
+      })
+})

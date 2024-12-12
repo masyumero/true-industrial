@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipez"
+	group: ""
+	icon: "pipez:item_pipe"
+	id: "720564CA898FBEDB"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["あまりに高性能なため"]
+			id: "399D0C3A60B6B6E6"
+			tasks: [{
+				id: "539069304C747A08"
+				title: "使いすぎは推奨できない"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "1C782516EC3E349E"
+			tasks: [{
+				id: "220C145027EC4AC8"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "45882DE2C266D1B6"
+			tasks: [{
+				id: "2A0852F61C12FB8B"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "0CFA20B045D11E6A"
+			tasks: [{
+				id: "548AF7AE9AE4E32F"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "57D007E94F2E1A31"
+			tasks: [{
+				id: "4FF1018223E497B0"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "6ABAEF1B7D93BF6F"
+			subtitle: "全部まとめたら強い"
+			tasks: [{
+				id: "65FD580E6B253C33"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "5B78DC31F002DE6A"
+			tasks: [{
+				id: "02D7286A8830CC35"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "7620CF2CA22BE6B7"
+			tasks: [{
+				id: "6FEDC11B84DB1F99"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "747644E54F74BE85"
+			tasks: [{
+				id: "31980F476D317A5D"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			id: "6B875A09E9249D69"
+			tasks: [{
+				id: "2997CD76902DA5AE"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["399D0C3A60B6B6E6"]
+			description: ["最悪ワールド破損"]
+			id: "197EC29AC0F2CFAA"
+			subtitle: "ここぞというときだけに"
+			tasks: [{
+				id: "49067260F1363462"
+				item: "pipez:infinity_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+	title: "pipez"
+}

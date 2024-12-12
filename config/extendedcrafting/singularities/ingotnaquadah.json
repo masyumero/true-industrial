@@ -1,0 +1,11 @@
+{
+	"name": "Ingot Naquadah",
+	"colors": [
+		"0d160c",
+		"10190f"
+	],
+	"ingredient": {
+		"item": "mekanism_extras:ingot_naquadah"
+	},
+	"materialCount": 1000
+}

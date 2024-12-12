@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: ""
+	icon: "draconicevolution:reactor_core"
+	id: "2BAD50EE1BA75781"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["08684119313B49B7"]
+			id: "0B8557018CAC253F"
+			subtitle: "カオスだね　カオスだよ"
+			tasks: [{
+				id: "794D774F5187E18A"
+				item: "draconicadditions:chaos_heart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "08684119313B49B7"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "7B2A4D7A7253A905"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "3D7D4A655BACAA23"
+			subtitle: "地下に埋まってるはず....もう持ってるって？"
+			tasks: [{
+				icon: "draconicevolution:chaos_shard"
+				id: "10F8779D5017DE52"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "1F10979AC8B05BF2"
+			subtitle: "万全の状態で挑もう"
+			tasks: [{
+				id: "57EF6F215063C89F"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+	title: "Draconic Evolution"
+}

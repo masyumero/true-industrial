@@ -1,0 +1,36 @@
+{
+    "projecte.transmutation_chamber":"Transmutation Chamber",
+    "avaritia.infinityrep":"Infinity Replicator",
+
+    "item.mekanismplus.refined_californium_ingot":"Refined californium ingot",
+    "item.mekanism_matter.flowing_universal_matter_bucket": "Universal matter bucket",
+
+    "gas.mekanism_matter.gases_universal_matter":"Gases Universal matter",
+    "gas.mekanism_plus.californium":"californium",
+    "gas.mekanism_plus.curium":"curium",
+
+    "fluid.mekanism_matter.flowing_universal_matter":"Flowing Universal matter",
+
+    "block.mekanism.super_sps":"SSPS Controller",
+    "block.mekanism.super_sps_casing":"SSPS Casing",
+    "block.mekanism.super_sps_input":"SSPS Input Port",
+    "block.mekanism.super_sps_output":"SSPS Output Port",
+    "block.mekanism.super_sps_energy_input":"SSPS Energy Input Port",
+    "block.trueindustrial.matter_generator_casing": "Matter Generator Casing",
+    "block.trueindustrial.matter_generator": "Matter Generator",
+    "block.trueindustrial.energy_input_hatch": "energy input hatch",
+    "block.trueindustrial.energy_output_hatch": "energy output hatch",
+    "block.trueindustrial.fluid_input_hatch": "fluid input hatch",
+    "block.trueindustrial.fluid_output_hatch": "fluid output hatch",
+    "block.trueindustrial.item_input_hatch": "item input hatch",
+    "block.trueindustrial.item_output_hatch": "item output hatch",
+    "block.avaritia.infinity_replicator": "Infinity Replicator",
+    "block.avaritia.infinity_replicator_output": "Infinity Replicator Output",
+    "block.avaritia.infinity_replicator_input": "Infinity Replicator Input",
+    "block.avaritia.Infinity_Replicator_Casing": "Infinity Replicator Casing",
+    "block.projecte.transmutation_chamber_casing":"Transmutation Chamber Casing",
+    "block.projecte.transmutation_chamber_controller":"Transmutation Chamber Casing Controller",
+    "block.projecte.transmutation_chamber_input":"Transmutation Chamber Input",
+    "block.projecte.transmutation_chamber_output":"Transmutation Chamber Output"
+    
+}
