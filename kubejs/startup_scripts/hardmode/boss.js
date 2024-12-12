@@ -211,7 +211,6 @@ const hardConfig = {
 
 
 if(isHardMode){
-	const AdventureConfig = Java.loadClass("dev.shadowsoffire.apotheosis.adventure.AdventureConfig")
 // Handle the possibility that there may not be a mode.json
 let config = JsonIO.read('kubejs/data/apotheosis/bosses/overworld/zombie.json');
 if (!config) {
