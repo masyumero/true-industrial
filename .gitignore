@@ -27,4 +27,8 @@
 /usercache.json
 /usernamecache.json
 /kubejs/data/apotheosis/bosses/overworld/zombie.json
-/config\fabric\indigo-renderer.properties
+config/fabric/indigo-renderer.properties
+config/malilib.json
+config/oculus.properties
+config/packetfixer.properties
+config/powah.json5
