@@ -23,6 +23,21 @@ ServerEvents.recipes(e=>{
             A:"mysticalagriculture:steel_essence"
         }
     )
+    e.recipes.extendedcrafting.shaped_table(
+        "mysticalagradditions:creative_essence",
+        [
+            "  A  ",
+            " ABA ",
+            "ABCBA",
+            " ABA ",
+            "  A  "
+        ],
+        {
+            A:"mysticalexpansion:divinium_essence",
+            B:"draconicevolution:chaos_shard",
+            C:"draconicevolution:dragon_heart"
+        }
+    )
     e.recipes.minecraft.crafting_shaped(
         "rftoolsdim:legendary_essence",
         [

@@ -209,7 +209,6 @@ const hardConfig = {
 };
 
 
-
 if(isHardMode){
 let config = JsonIO.read('kubejs/data/apotheosis/bosses/overworld/zombie.json');
 if (!config) {
@@ -218,5 +217,5 @@ if (!config) {
 }
 }
 if(isNormalMode){
-    JsonIO.write('kubejs/data/apotheosis/bosses/overworld/zombie.json',null)
+    JsonIO.write('kubejs/data/apotheosis/bosses/overworld/zombie.json',null);
 }

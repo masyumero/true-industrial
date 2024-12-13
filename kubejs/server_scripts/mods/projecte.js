@@ -93,7 +93,7 @@ e.recipes.extendedcrafting.shaped_table(
     {
         A:{item:'mekanism_extras:naquadah_reactor_casing'},
         B:{item:'projectexpansion:magnum_star_omega'},
-        C:{item:'ad_astra_proxima_plus:blue_sun'},
+        C:{item:'projectexpansion:final_relay'},
         D:{item:'projecte:alchemical_chest'}
     }
 )
