@@ -302,7 +302,7 @@ ServerEvents.recipes(e=>{
     }
   )
   e.recipes.extendedcrafting.shaped_table(
-    "botanicalmachinery:mana_battery_creative",
+    "botania:creative_pool",
     [
       "ABBCCDCCBBA",
       "BEFGGGGGFEB",
