@@ -1,0 +1,10 @@
+ServerEvents.recipes(e=>{
+    e.shapeless(
+        "mekanism:creative_chemical_tank",
+        "mekanism:creative_chemical_tank"
+    )
+    e.shapeless(
+        "mekanism:creative_fluid_tank",
+        "mekanism:creative_fluid_tank"
+    )
+})
