@@ -22,16 +22,15 @@ if(isHardMode){
             "name": `${sin.name}`,
             "colors": sin.colors,
             "ingredient": sin.ingredient,
-            "materialCount": sin.materialCount
+            "materialCount": (sin.materialCount * 100)
         };
     } 
     if(isExpertMode){
-        const materialCount = (sin.materialCount * 100)
         singularityjson = {
             "name": `${sin.name}`,
             "colors": sin.colors,
             "ingredient": sin.ingredient,
-            "materialCount": materialCount
+            "materialCount": (sin.materialCount * 1000)
         };
     }
         JsonIO.write(singularityname, null)
