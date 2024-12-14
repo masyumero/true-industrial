@@ -8,7 +8,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'techreborn:energy_flow_chip'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'deshtrumingot',
@@ -17,7 +17,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'ad_astra__extra_additions:deshtrum_ingot'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'redmatter',
@@ -26,7 +26,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'projecte:red_matter'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'alfheimprediction',
@@ -35,7 +35,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'hostilenetworks:alfheim_prediction'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'ingotnaquadah',
@@ -44,7 +44,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'mekanism_extras:ingot_naquadah'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'diviniumingotblock',
@@ -53,7 +53,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'mysticalexpansion:divinium_ingot_block'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'hyperexperiencebottle',
@@ -62,7 +62,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'create_enchantment_industry:hyper_experience_bottle'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'reactorcore',
@@ -71,7 +71,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'draconicevolution:reactor_core'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'crimsondragonstoneblock',
@@ -80,7 +80,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'botanicalextramachinery:crimson_dragonstone_block'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'megaupgradeaugment',
@@ -89,7 +89,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'thermal_more:mega_upgrade_augment'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'nitrocrystalblock',
@@ -98,7 +98,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'powah:nitro_crystal_block'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
     {
         'file': 'abyssalgear',
@@ -107,7 +107,7 @@ global.hardsingularity=[
         'ingredient': {
             'item': 'thermal_extra:abyssal_gear'
         },
-        'materialCount': 1000
+        'materialCount': 10000
     },
 ]
 global.normalsingularity=[

@@ -22,7 +22,7 @@ if(isHardMode){
             "name": `${sin.name}`,
             "colors": sin.colors,
             "ingredient": sin.ingredient,
-            "materialCount": (sin.materialCount * 100)
+            "materialCount": sin.materialCount
         };
     } 
     if(isExpertMode){
@@ -30,7 +30,7 @@ if(isHardMode){
             "name": `${sin.name}`,
             "colors": sin.colors,
             "ingredient": sin.ingredient,
-            "materialCount": (sin.materialCount * 1000)
+            "materialCount": 1000000
         };
     }
         JsonIO.write(singularityname, null)
