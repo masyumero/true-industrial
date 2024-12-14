@@ -159,7 +159,7 @@ ServerEvents.recipes(e=>{
       J:{item:"avaritia:endest_pearl"},
       K:{item:"mekanismscience:pellet_neutron_source"},
       L:{item:"mekanism_extras:infinite_control_circuit"},
-      M:Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:philosophes_stone"}').weakNBT(),
+      M:{item:"avaritia:infinity_catalyst"},
       N:{item:"draconicevolution:chaotic_core"},
       O:{item:"draconicevolution:dragon_heart"},
       P:{item:"mekanism_extras:infinite_chemical_tank"}
@@ -193,7 +193,7 @@ ServerEvents.recipes(e=>{
       J:{item:"avaritia:endest_pearl"},
       K:{item:"mekanismscience:pellet_neutron_source"},
       L:{item:"mekanism_extras:infinite_control_circuit"},
-      M:Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:philosophes_stone"}').weakNBT(),
+      M:{item:"avaritia:infinity_catalyst"},
       N:{item:"draconicevolution:chaotic_core"},
       O:{item:"draconicevolution:dragon_heart"},
       P:{item:'mekanism_extras:infinite_energy_cube'}
@@ -227,7 +227,7 @@ ServerEvents.recipes(e=>{
       J:{item:"avaritia:endest_pearl"},
       K:{item:"mekanismscience:pellet_neutron_source"},
       L:{item:"mekanism_extras:infinite_control_circuit"},
-      M:Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:philosophes_stone"}').weakNBT(),
+      M:{item:"avaritia:infinity_catalyst"},
       N:{item:"draconicevolution:chaotic_core"},
       O:{item:"draconicevolution:dragon_heart"},
       P:{item:'mekanism_extras:infinite_fluid_tank'}
@@ -295,7 +295,7 @@ ServerEvents.recipes(e=>{
       J:{item:"avaritia:endest_pearl"},
       K:{item:"mekanismscience:pellet_neutron_source"},
       L:{item:"mekanism_extras:infinite_control_circuit"},
-      M:Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:philosophes_stone"}').weakNBT(),
+      M:{item:"avaritia:infinity_catalyst"},
       N:{item:"draconicevolution:chaotic_core"},
       O:{item:"draconicevolution:dragon_heart"},
       P:{item:"createaddition:electric_motor"}
@@ -329,7 +329,7 @@ ServerEvents.recipes(e=>{
       J:{item:"avaritia:endest_pearl"},
       K:{item:"mekanismscience:pellet_neutron_source"},
       L:{item:"mekanism_extras:infinite_control_circuit"},
-      M:Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:philosophes_stone"}').weakNBT(),
+      M:{item:"avaritia:infinity_catalyst"},
       N:{item:"draconicevolution:chaotic_core"},
       O:{item:"draconicevolution:dragon_heart"},
       P:{item:"botanicalmachinery:mana_battery"}

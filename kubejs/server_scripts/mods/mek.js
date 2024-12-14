@@ -1,4 +1,12 @@
 ServerEvents.recipes(e=>{
+e.recipes.mekanism.metallurgic_infusing(
+  'trueindustrial:cosmilite',
+  "thermal_extra:abyssal_ingot",
+  {
+    infuse_type:"mekanism_extras:spectrum",
+    amount:1000
+  }
+  )
 e.custom({
   "type": "mekanism:nucleosynthesizing",
   "itemInput":{
