@@ -5,6 +5,9 @@ if(isNormalMode){
 			.texture("kubejs:item/philosophers_stone_nugget")
 }
 	event
+			.create("trueindustrial:cosmilite")
+			.texture("kubejs:item/cosmilite")
+	event
 			.create("hostilenetworks:alfheim_prediction")
 			.texture("kubejs:item/alfheim_prediction")
 	event	

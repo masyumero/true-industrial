@@ -167,7 +167,7 @@
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: lookup-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
@@ -197,7 +197,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index, lookup-history;
 
 	/**
 	 * The subpanels in the right sidebar
