@@ -1,6 +1,12 @@
 ServerEvents.recipes(e=>{
+  e.remove({output:"botanicalextramachinery:catalyst_mana_infinity"})
+if(isHardMode){
+  e.recipes.botania.elven_trade(
+    "botanicalextramachinery:catalyst_mana_infinity",
+    'avaritia:infinity_catalyst'
+  )
+}
 if(isNormalMode){
-    e.remove({output:"botanicalextramachinery:catalyst_mana_infinity"})
     e.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [
