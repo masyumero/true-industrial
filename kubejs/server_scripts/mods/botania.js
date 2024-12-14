@@ -27,7 +27,7 @@ if(isNormalMode){
       })
     }
     e.shapeless(
-        Item.of('botania:lexicon', '{"botania:elven_unlock":1b}'),
+        Item.of('botania:lexicon', '{"botania:elven_unlock":1b}').weakNBT(),
         [
             'botania:lexicon',
             'hostilenetworks:alfheim_prediction'

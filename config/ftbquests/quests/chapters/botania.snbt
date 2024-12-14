@@ -277,7 +277,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["7D78128C88082665"]
+			dependencies: ["314EF672CF00D4FA"]
 			description: ["もっとよく読んでおこう"]
 			id: "7051E577645D626A"
 			subtitle: "botaniaのすべてがここに"
@@ -293,7 +293,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -8.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -1313,6 +1313,17 @@
 			}]
 			x: 5.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["7D78128C88082665"]
+			id: "314EF672CF00D4FA"
+			tasks: [{
+				id: "28E7628722E47B14"
+				item: "botania:page_scrap"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
 		}
 	]
 	title: "botania"

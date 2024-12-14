@@ -1,5 +1,17 @@
 ServerEvents.recipes(e=>{
     if(isHardMode){
+      e.remove({id:"botania:elven_trade/lexicon_elven"})
+      e.recipes.botania.elven_trade(
+        'botania:page_scrap',
+        'minecraft:paper'
+      )
+      e.recipes.minecraft.crafting_shapeless(
+        Item.of('botania:lexicon', '{"botania:elven_unlock":1b}').weakNBT(),
+        [
+          'botania:lexicon',
+          "8x botania:page_scrap"
+        ]
+      )
         e.custom({
             "type": "draconicevolution:fusion_crafting",
             "catalyst": {
