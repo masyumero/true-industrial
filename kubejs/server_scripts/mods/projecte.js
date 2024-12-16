@@ -16,6 +16,11 @@ e.recipes.vintageimprovements.hammering(
 )
 }
 e.replaceInput(
+  {input:"projecte:philosophers_stone"},
+  "projecte:philosophers_stone",
+  Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:philosophersstone"}').weakNBT()
+)
+e.replaceInput(
   {output:"projecte:klein_star_ein"},
   "projecte:mobius_fuel",
   "rftoolsdim:legendary_essence"
@@ -81,6 +86,7 @@ e.replaceInput(
     "mekanism:pellet_antimatter"
 )
 e.remove({id:"projecte:condenser_mk1"})
+if(isHardMode){
 e.recipes.extendedcrafting.shaped_table(
     "projecte:condenser_mk1",
     [
@@ -97,6 +103,7 @@ e.recipes.extendedcrafting.shaped_table(
         D:{item:'projecte:alchemical_chest'}
     }
 )
+}
    //e.recipes.extendedcrafting.shaped_table(
    //    "projecte:philosophers_stone",
    //    [
@@ -152,7 +159,7 @@ e.recipes.extendedcrafting.shaped_table(
     e.recipes.create.sequenced_assembly([
         "projecte:philosophers_stone"
     ],
-    "ad_extendra:jupiter_stone",
+    "mekanism_plus:creative_ingot",
     [
     e.recipes.create.deploying(inter,[inter, "botania:dice"]),
     e.recipes.create.deploying(inter,[inter, "avaritia:infinity_block"]),
