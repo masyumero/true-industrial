@@ -2,6 +2,15 @@
 Platform.mods.kubejs.name = 'True Industrial'
 global.hardsingularity=[
     {
+        'file': 'philosophersstone',
+        'name': 'Philosophers Stone',
+        'colors': ['b52f6d', '880026'],
+        'ingredient': {
+            'item': "projecte:philosophers_stone"
+        },
+        'materialCount': 1000
+    },
+    {
         'file': 'energyflowchip',
         'name': 'Energy Flow Chip',
         'colors': ['479cc8', 'afb5b7'],
@@ -111,6 +120,15 @@ global.hardsingularity=[
     },
 ]
 global.normalsingularity=[
+    {
+        'file': 'philosophersstone',
+        'name': 'Philosophers Stone',
+        'colors': ['b52f6d', '880026'],
+        'ingredient': {
+            'item': "projecte:philosophers_stone"
+        },
+        'materialCount': 10
+    },
     {
         'file': 'actinium',
         'name': 'Actinium Ingot',
