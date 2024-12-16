@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 出力するファイル名
-PACK_FILE_NAME="extraordinary-energy"
+PACK_FILE_NAME="True_Industrial"
 
 # エラー時にスクリプトを停止する
 set -euo pipefail
