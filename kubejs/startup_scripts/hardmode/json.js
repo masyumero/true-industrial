@@ -217,5 +217,9 @@ if (!config) {
 }
 }
 if(isNormalMode){
-    JsonIO.write('kubejs/data/apotheosis/bosses/overworld/zombie.json',null);
+	let config = JsonIO.read('kubejs/data/apotheosis/bosses/overworld/zombie.json');
+	if (!config) {
+		JsonIO.write('kubejs/data/apotheosis/bosses/overworld/zombie.json',null);
+		config = hardConfig;
+	}
 }
