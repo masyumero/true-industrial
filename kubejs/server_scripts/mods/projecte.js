@@ -171,7 +171,6 @@ e.recipes.extendedcrafting.shaped_table(
     e.recipes.create.deploying(inter,[inter, "draconicevolution:chaos_shard"]),
     e.recipes.create.deploying(inter,[inter, "mekanismscience:pellet_neutron_source"]),
     e.recipes.create.deploying(inter,[inter, 'mysticalagriculture:awakening_pedestal']),
-    e.recipes.create.deploying(inter,[inter, "ad_astra_proxima_plus:refined_micyurite"]),
     e.recipes.create.deploying(inter,[inter, 'mysticalagriculture:awakening_altar']),
     e.recipes.create.deploying(inter,[inter, Item.of('botania:lexicon', '{"botania:elven_unlock":1b}').weakNBT()]),
     e.recipes.create.deploying(inter,[inter, Item.of('patchouli:guide_book', '{"patchouli:book":"extendedcrafting:guide"}').weakNBT()]),

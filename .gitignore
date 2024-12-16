@@ -1,5 +1,6 @@
 /.curseclient
 /.mixin.out
+/.replay_cache
 /backups
 /crash-reports
 /data
@@ -28,4 +29,12 @@
 /usernamecache.json
 /kubejs/data/apotheosis/bosses/overworld/zombie.json
 /config
+/ffmpeg-7.1-essentials_build
+/replay_videos
+/replay_recordings
+/fancymenu_data
 
+hs_err_pid48600.log
+hs_err_pid43136.log
+export.log
+options.txt
