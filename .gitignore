@@ -33,8 +33,6 @@
 /replay_videos
 /replay_recordings
 /fancymenu_data
-
-hs_err_pid48600.log
-hs_err_pid43136.log
 export.log
 options.txt
+config/oculus.properties
