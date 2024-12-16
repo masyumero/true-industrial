@@ -1,6 +1,7 @@
 /.curseclient
 /.mixin.out
 /.replay_cache
+/.vscode
 /backups
 /crash-reports
 /data
@@ -39,3 +40,4 @@ config/oculus.properties
 fancymenu_data/last_world.fmdata
 config/fabric/indigo-renderer.properties
 config/packetfixer.properties
+
