@@ -14,6 +14,11 @@
     "version": "test",
     "author": "masyumero",
     "files": [
+      { 
+        "projectID":1161015,
+        "fileID":5998585,
+        "required":true
+      },
       {
         "projectID":1131545,
         "fileID":596715,
