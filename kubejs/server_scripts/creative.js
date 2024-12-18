@@ -1,4 +1,19 @@
 ServerEvents.recipes(e=>{
+  e.recipes.minecraft.crafting_shaped(
+    'storagedrawers:creative_storage_upgrade',
+    [
+      "ABA",
+      "CDC",
+      "EBE"
+    ],
+    {
+      A:'mekanism:pellet_antimatter',
+      B:'techreborn:iridium_alloy_ingot',
+      C:'storagedrawers:emerald_storage_upgrade',
+      D:'storagedrawers:void_upgrade',
+      E:'techreborn:industrial_circuit'
+    }
+  )
   e.recipes.extendedcrafting.shapeless_table(
     'mekanism_plus:creative_ingot',
     [

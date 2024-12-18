@@ -142,6 +142,9 @@
     "display.content": true,
     "display.status": true
   },
+  "mm": {
+    "controller_progress": true
+  },
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true

@@ -14,7 +14,6 @@
     "base_drop": {
         "item": "hostilenetworks:alfheim_prediction"
     },
-    "trivia": "",
     "fabricator_drops": [
         {
             "item": "botania:life_essence",

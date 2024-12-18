@@ -1,4 +1,11 @@
 ServerEvents.recipes(e=>{
+    e.recipes.extendedcrafting.compressor(
+        "draconicadditions:chaos_heart",
+        "hostilenetworks:prediction_matrix",
+        Item.of('hostilenetworks:prediction','{data_model:{id:"hostilenetworks:draconicevolution/draconic_guardian"}}').weakNBT(),
+        1000,
+        10000000
+    )
     e.recipes.minecraft.crafting_shaped(
         "pipez:infinity_upgrade",
         [

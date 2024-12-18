@@ -11,7 +11,6 @@ ServerEvents.tags("item",e=>{
     item("mekanism:creative_chemical_tank")
     item("mekanism:creative_energy_cube")
     item("mekanism:creative_fluid_tank")
-    item("storagedrawers:creative_vending_upgrade")
     item('storagedrawers:creative_storage_upgrade')
     item('ae2:creative_energy_cell')
     item('draconicevolution:creative_capacitor')
