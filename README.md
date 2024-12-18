@@ -1,4 +1,4 @@
-![titleimage](true-industrial/images/minecraft_title.png)
+![titleimage](images/minecraft_title.png)
 # true-industrial
 高難易度を目指して  
 ### 追加で導入を推奨  
