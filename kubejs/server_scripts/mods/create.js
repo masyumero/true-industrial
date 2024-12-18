@@ -1,30 +1,4 @@
 ServerEvents.recipes(e=>{
-//compact fissil
-if (isNormalMode){
-e.recipes.create.mechanical_crafting(
-  "compactmekanismmachines:compact_fission_reactor",
-  [
-    "AAAAAAAAA",
-    "ABCBCBCBA",
-    "ACDEEEDCA",
-    "ABEFFFEBA",
-    "ACEFGFECA",
-    "ABEFFFEBA",
-    "ACDEEEDCA",
-    "ABCBCBCBA",
-    "AAAAAAAAA"
-  ],
-  {
-    A:{item:"mekanismgenerators:fission_reactor_casing"},
-    B:{item:"mekanismgenerators:fission_fuel_assembly"},
-    C:{item:"mekanismgenerators:control_rod_assembly"},
-    D:{item:"mekanism_extras:infinite_chemical_tank"},
-    E:{item:"mekanism_extras:infinite_control_circuit"},
-    F:{item:"mekanism_extras:alloy_spectrum"},
-    G:{item:"mekanism_extras:expand_radioactive_waste_barrel"}
-  }
-)
-}
 //elytra
     e.recipes.create.mixing(
         [{

@@ -72,31 +72,6 @@ e.recipes.minecraft.crafting_shaped(
   }
 )
 if (isNormalMode){
-e.recipes.extendedcrafting.shaped_table(
-  "compactmekanismmachines:compact_industrial_turbine",
-  [
-    "AAAAAAA",
-    "ABCDCBA",
-    "AEFGFEA",
-    "AHFGFHA",
-    "AIFGFIA",
-    "AJFGFJA",
-    "AAAAAAA"
-  ],
-  {
-    A:{item:'mekanismgenerators:turbine_casing'},
-    B:{item:'mekanism_extras:alloy_radiance'},
-    C:{item:'mekanismscience:pellet_neutron_source'},
-    D:{item:'mekanismgenerators:electromagnetic_coil'},
-    E:{item:'mekanism:pressure_disperser'},
-    F:{item:'mekanismgenerators:turbine_blade'},
-    G:{item:'mekanismgenerators:turbine_rotor'},
-    H:{item:'mekanismgenerators:saturating_condenser'},
-    I:{item:"mekanismgenerators:turbine_vent"},
-    J:{item:'mekanism_extras:absolute_control_circuit'}
-  }
-)
-
 e.recipes.mekanism.chemical_infusing(
   {
     gas:'mekanism_plus:neutron_enriched_gas',
