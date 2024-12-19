@@ -1,4 +1,5 @@
 ServerEvents.recipes(e=>{
+    e.remove({id:"/quarryplus/adv_quarry"})
     e.recipes.extendedcrafting.compressor(
         "draconicadditions:chaos_heart",
         "hostilenetworks:prediction_matrix",
@@ -82,30 +83,6 @@ ServerEvents.recipes(e=>{
         }
     )
     e.remove({id:'cyclic:uncrafter'})
-    e.recipes.minecraft.crafting_shaped(
-        "trueindustrial:matter_generator_casing",
-        [
-            " A ",
-            "ABA",
-            " A "
-        ],
-        {
-            A:"mekanismgenerators:fission_reactor_casing",
-            B:"mekanism:pellet_antimatter"
-        }
-    )
-    e.recipes.minecraft.crafting_shaped(
-        "trueindustrial:matter_generator",
-        [
-            " A ",
-            "ABA",
-            " A "
-        ],
-        {
-            A:"trueindustrial:matter_generator_casing",
-            B:"mekanism_extras:absolute_control_circuit"
-        }
-    )
     let hatchtype = (io,type,cat) => {
         e.recipes.minecraft.crafting_shaped(
             `trueindustrial:${type}_${io}_hatch`,

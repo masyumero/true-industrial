@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "creative"
-	group: ""
+	group: "7C1A1AEF6A5AA1B0"
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -41,7 +41,7 @@
 		id: "draconicevolution:creative_capacitor"
 	}
 	id: "0172DEE1D0C3B6FE"
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

@@ -211,7 +211,6 @@ e.recipes.extendedcrafting.shaped_table(
     e.recipes.create.deploying(inter,[inter, 'ad_extendra:juperium_ingot']),
     e.recipes.create.deploying(inter,[inter, 'vintageimprovements:redstone_module']),
     e.recipes.create.deploying(inter,[inter, 'nuclearcraft:depleted_fuel_californium_hecf_249_za']),
-    e.recipes.create.deploying(inter,[inter, 'trueindustrial:not_matter']),
     e.recipes.create.deploying(inter,[inter, 'draconicadditions:chaos_heart'])
     ])
     .transitionalItem(inter)

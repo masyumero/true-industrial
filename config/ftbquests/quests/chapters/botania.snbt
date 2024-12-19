@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "botania"
-	group: ""
+	group: "7C1A1AEF6A5AA1B0"
 	icon: "botania:lexicon"
 	id: "1CE3BFCF4AD77A99"
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

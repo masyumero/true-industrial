@@ -10,9 +10,6 @@ if(isNormalMode){
 	event
 			.create("hostilenetworks:alfheim_prediction")
 			.texture("kubejs:item/alfheim_prediction")
-	event	
-			.create("trueindustrial:not_matter")
-			.texture("kubejs:item/mekanism_matter/universal_matter")
 	event
 			.create('mekanism_plus:creative_ingot')
 			.texture("kubejs:item/mekanismplus/creative_ingot")
@@ -81,6 +78,13 @@ StartupEvents.registry('mekanism:infuse_type', event =>{
 			.color(13386234)
 })
 StartupEvents.registry("block", event=>{
+	event
+			.create("mekanism:infinite_unit")
+			.hardness(50)
+			.resistance(1000)
+			.soundType("METAL")
+			.textureAll("kubejs:block/mekanism/infinite_unit.png")
+			.translationKey("block.mekanism.infinite_unit.png")
 	event	
 			.create("mekanism:super_sps_casing")
 			.hardness(50)
@@ -88,12 +92,6 @@ StartupEvents.registry("block", event=>{
 			.soundType("METAL")
 			.textureAll("kubejs:block/mekanism/super_sps_casing")
 			.translationKey("block.mekanism.super_sps_casing")
-	event
-			.create("trueindustrial:matter_generator_casing")
-			.hardness(50)
-			.resistance(1000)
-			.soundType("METAL")
-			.textureAll("kubejs:block/matter_generator_casing")
 	event
 			.create("avaritia:Infinity_Replicator_Casing")
 			.hardness(50)

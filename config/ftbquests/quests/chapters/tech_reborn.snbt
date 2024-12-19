@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tech_reborn"
-	group: ""
+	group: "7C1A1AEF6A5AA1B0"
 	icon: "techreborn:industrial_machine_frame"
 	id: "68AA8A5A6131925F"
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		id: "73A320A0D63625EC"

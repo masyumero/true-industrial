@@ -114,7 +114,7 @@ ServerEvents.recipes(e=>{
   e.recipes.extendedcrafting.shaped_table(
       "mekanism_lasers:creative_laser",
       [
-  'ABCDDEDDCBA',
+  ' BCDDEDDCB ',
   'BFFGGHGGIIB',
   'CFJKKKKKJIC',
   'DGKLMMMLKGD',
@@ -124,10 +124,9 @@ ServerEvents.recipes(e=>{
   'DGKLMMMLKGD',
   'CIJKKKKKJFC',
   'BIIGGHGGFFB',
-  'ABCDDEDDCBA'
+  ' BCDDEDDCB '
 ],
   {
-  A:{item:'trueindustrial:not_matter'},
   B:{item:'thermal_extra:twinite_glass'},
   C:{item:'mekanismadditions:red_glow_panel'},
   D:{item:'mekanism:pellet_antimatter'},
