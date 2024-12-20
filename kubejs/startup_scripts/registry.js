@@ -84,7 +84,7 @@ StartupEvents.registry("block", event=>{
 			.resistance(1000)
 			.soundType("METAL")
 			.textureAll("kubejs:block/mekanism/infinite_unit.png")
-			.translationKey("block.mekanism.infinite_unit.png")
+			.translationKey("block.mekanism.infinite_unit")
 	event	
 			.create("mekanism:super_sps_casing")
 			.hardness(50)
