@@ -2,7 +2,6 @@
     "projecte.transmutation_chamber":"変換チャンバー",
     "avaritia.infinityrep":"インフィニティレプリケーター",
     "mekanism.digital_assembly_table":"デジタルアセンブリーテーブル",
-    "mekanism.compact_digital_assembly_table":"コンパクトデジタルアセンブリーテーブル",
 
     "item.mekanismplus.refined_californium_ingot":"精製カリホルニウムインゴット",
     "item.mekanism_matter.flowing_universal_matter_bucket": "ユニバーサルマター入りバケツ",
@@ -14,9 +13,15 @@
 
     "fluid.mekanism_matter.flowing_universal_matter":"液体ユニバーサルマター",
 
-    "block.mekanism.infinite_unit": "インフィニティ筐体",
+    "block.mekanism.infinite_unit": "永久筐体",
+    "block.mekanism.cosmic_unit": "宇宙的筐体",
+    "block.mekanism.supreme_unit": "至高筐体",
+    "block.mekanism.absolute_unit": "完全筐体",
+    "block.mekanism.ultimate_unit": "究極筐体",
+    "block.mekanism.elite_unit": "精鋭筐体",
+    "block.mekanism.advanced_unit": "発展筐体",
+    "block.mekanism.basic_unit": "基本筐体",
     "block.mekanism.digital_assembly_table":"デジタルアセンブリーテーブル",
-    "block.mekanism.compact_digital_assembly_table":"コンパクトデジタルアセンブリーテーブル",
     "block.mekanism.super_sps":"SSPSコントローラー",
     "block.mekanism.super_sps_casing":"SSPS筐体",
     "block.mekanism.super_sps_input":"SSPSインプットポート",

@@ -1,5 +1,6 @@
 ServerEvents.recipes(e=>{
-    e.remove({id:"/quarryplus/adv_quarry"})
+    e.remove({id:"cookingforblockheads:sink"})
+    e.remove({output:"quarryplus:adv_quarry"})
     e.recipes.extendedcrafting.compressor(
         "draconicadditions:chaos_heart",
         "hostilenetworks:prediction_matrix",

@@ -2,7 +2,6 @@
     "projecte.transmutation_chamber":"Transmutation Chamber",
     "avaritia.infinityrep":"Infinity Replicator",
     "mekanism.digital_assembly_table":"Digital Assembly Table",
-    "mekanism.compact_digital_assembly_table":"Compact Digital Assembly Table",
 
     "item.mekanismplus.refined_californium_ingot":"Refined californium ingot",
     "item.mekanism_matter.flowing_universal_matter_bucket": "Universal matter bucket",
@@ -13,9 +12,7 @@
 
     "fluid.mekanism_matter.flowing_universal_matter":"Flowing Universal matter",
 
-    "block.mekanism.infinite_unit": "Infinite Unit",
     "block.mekanism.digital_assembly_table":"Digital Assembly Table",
-    "block.mekanism.compact_digital_assembly_table":"Compact Digital Assembly Table",
     "block.mekanism.super_sps":"SSPS Controller",
     "block.mekanism.super_sps_casing":"SSPS Casing",
     "block.mekanism.super_sps_input":"SSPS Input Port",

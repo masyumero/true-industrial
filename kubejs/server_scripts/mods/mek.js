@@ -1,4 +1,5 @@
 ServerEvents.recipes(e=>{
+e.remove({id:"mekanism:digital_miner"})
 e.recipes.mekanism.metallurgic_infusing(
   'trueindustrial:cosmilite',
   "thermal_extra:abyssal_ingot",
