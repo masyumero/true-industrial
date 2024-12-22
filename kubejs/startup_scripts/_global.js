@@ -1,5 +1,55 @@
 //priority: 999
 Platform.mods.kubejs.name = 'True Industrial'
+global.unittier=[
+    {
+        "tier":"infinite",
+        "alloy":'mekanism_extras:alloy_spectrum',
+        "circuit":'mekanism_extras:infinite_control_circuit',
+        "catalyst":'mekanism:cosmic_unit',
+    },
+    {
+        "tier":"cosmic",
+        "alloy":'mekanism_extras:alloy_shining',
+        "circuit":'mekanism_extras:cosmic_control_circuit',
+        "catalyst":'mekanism:supreme_unit',
+    },
+    {
+        "tier":"supreme",
+        "alloy":'mekanism_extras:alloy_thermonuclear',
+        "circuit":'mekanism_extras:supreme_control_circuit',
+        "catalyst":'mekanism:absolute_unit',
+    },
+    {
+        "tier":"absolute",
+        "alloy":'mekanism_extras:alloy_radiance',
+        "circuit":'mekanism_extras:absolute_control_circuit',
+        "catalyst":'mekanism:ultimate_unit',
+    },
+    {
+        "tier":"ultimate",
+        "alloy":'mekanism:alloy_atomic',
+        "circuit":'mekanism:ultimate_control_circuit',
+        "catalyst":'mekanism:elite_unit',
+    },
+    {
+        "tier":"elite",
+        "alloy":'mekanism:alloy_reinforced',
+        "circuit":'mekanism:elite_control_circuit',
+        "catalyst":'mekanism:advanced_unit',
+    },
+    {
+        "tier":"advanced",
+        "alloy":'mekanism:alloy_infused',
+        "circuit":'mekanism:advanced_control_circuit',
+        "catalyst":'mekanism:basic_unit',
+    },
+    {
+        "tier":"basic",
+        "alloy":'create:andesite_alloy',
+        "circuit":'mekanism:basic_control_circuit',
+        "catalyst":'mekanism:steel_casing',
+    }
+]
 global.hardsingularity=[
     {
         'file': 'philosophersstone',

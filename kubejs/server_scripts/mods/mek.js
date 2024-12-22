@@ -1,4 +1,17 @@
 ServerEvents.recipes(e=>{
+e.recipes.minecraft.crafting_shaped(
+  'mekanism:basic_unit',
+  [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  {
+    A:'create:andesite_alloy',
+    B:'mekanism:basic_control_circuit',
+    C:'mekanism:steel_casing'
+  }
+)
 e.remove({id:"mekanism:digital_miner"})
 e.recipes.mekanism.metallurgic_infusing(
   'trueindustrial:cosmilite',
