@@ -7,4 +7,8 @@ ServerEvents.recipes(e=>{
         "mekanism:creative_fluid_tank",
         "mekanism:creative_fluid_tank"
     )
+    e.shapeless(
+        "mekanism:creative_energy_cube",
+        "mekanism:creative_energy_cube"
+    )
 })

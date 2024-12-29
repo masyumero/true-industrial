@@ -5,7 +5,7 @@
 	group: "7C1A1AEF6A5AA1B0"
 	icon: "mekanism_extras:expand_radioactive_waste_barrel"
 	id: "2CF5FAEA4DB77548"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

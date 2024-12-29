@@ -1,6 +1,18 @@
 ServerEvents.recipes(e=>{
+    e.remove({not:{input:"minecraft:coal"},output:'minecraft:charcoal'})
     e.remove({id:"cookingforblockheads:sink"})
     e.remove({output:"quarryplus:adv_quarry"})
+    e.shaped(
+        "minecraft:crafting_table",
+        [
+            "AA",
+            "BB"
+        ],
+        {
+            A:"minecraft:flint",
+            B:"minecraft:oak_log"
+        }
+    )
     e.recipes.extendedcrafting.compressor(
         "draconicadditions:chaos_heart",
         "hostilenetworks:prediction_matrix",

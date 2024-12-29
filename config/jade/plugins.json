@@ -54,6 +54,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "avaritia": {
+    "compressor_jade": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

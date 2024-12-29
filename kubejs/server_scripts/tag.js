@@ -1,4 +1,5 @@
 ServerEvents.tags("item",e=>{
+    e.add("forge:coal_coke",'tfmg:coal_coke')
     let item = (itemname) => {
     e.add("pack:craftable_creative_item",`${itemname}`)
     }
