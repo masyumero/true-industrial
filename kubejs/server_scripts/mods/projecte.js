@@ -162,7 +162,7 @@ e.recipes.extendedcrafting.shaped_table(
     "mekanism_plus:creative_ingot",
     [
     e.recipes.create.deploying(inter,[inter, "botania:dice"]),
-    e.recipes.create.deploying(inter,[inter, "avaritia:infinity_block"]),
+    e.recipes.create.deploying(inter,[inter, 'avaritia:infinity']),
     e.recipes.create.deploying(inter,[inter, "powah:nitro_crystal_block"]),
     e.recipes.create.deploying(inter,[inter, "powah:steel_energized"]),
     e.recipes.create.deploying(inter,[inter, "mekanism_extras:infinite_control_circuit"]),
