@@ -95,25 +95,4 @@ ServerEvents.recipes(e=>{
             B:"nether_star"
         }
     )
-    e.remove({id:'cyclic:uncrafter'})
-    let hatchtype = (io,type,cat) => {
-        e.recipes.minecraft.crafting_shaped(
-            `trueindustrial:${type}_${io}_hatch`,
-            [
-                "AAA",
-                "ABA",
-                "AAA"
-            ],
-            {
-                A:"minecraft:iron_block",
-                B:`${cat}`
-            }
-        )
-    }
-    hatchtype("input","fluid",'integratedtunnels:part_importer_fluid')
-    hatchtype("output","fluid",'integratedtunnels:part_exporter_fluid')
-    hatchtype("input","energy",'integratedtunnels:part_importer_energy')
-    hatchtype("output","energy",'integratedtunnels:part_exporter_energy')
-    hatchtype("input","item",'integratedtunnels:part_importer_item')
-    hatchtype("output","item",'integratedtunnels:part_exporter_item')
 })

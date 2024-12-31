@@ -1,5 +1,44 @@
 ServerEvents.recipes(e=>{
 e.recipes.minecraft.crafting_shaped(
+  'mekanism:basic_item_output_bus',
+  [
+    " B ",
+    " C ",
+    "   "
+  ],
+  {
+    B:'mekanism:basic_unit',
+    C:"minecraft:chest"
+  }
+)
+e.recipes.minecraft.crafting_shaped(
+  'trueindustrial:energy_input_hatch',
+  [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  {
+    A:"techreborn:advanced_alloy_plate",
+    B:'mekanism:basic_control_circuit',
+    C:"mekanism:basic_energy_cube"
+  }
+)
+e.recipes.minecraft.crafting_shaped(
+  "mekanism:digital_assembly_table",
+  [
+    "ABA",
+    "BCB",
+    "DBD"
+  ],
+  {
+    A:"techreborn:advanced_alloy_plate",
+    B:"mekanism:steel_casing",
+    C:"ae2:crafting_monitor",
+    D:"mekanism:basic_control_circuit"
+  }
+)
+e.recipes.minecraft.crafting_shaped(
   'mekanism:basic_unit',
   [
     "ABA",
