@@ -1,10 +1,23 @@
 ![titleimage](images/minecraft_title.png)
-# true-industrial
-高難易度を目指して  
-### 追加で導入を推奨  
-より快適な体験のために追加で導入することを推奨します  
- 1. [**mekanism-Tweaks**](https://www.curseforge.com/minecraft/mc-mods/mekanism-tweaks) 1.20.1で導入するにはmods.tomlの編集が必須 詳しくは[wiki](https://true-industrial.gitbook.io/true-industrial-docs)を参照
-## LICENSE  
+## 概要
+高難度な工業系MODPACKを目指して開発を進めています  
+## 要素
+#### 実装済み
+・デジタルアセンブリーテーブル  
+・その他マルチブロック設備  
+#### 開発途中
+・ゴール  
+・クエスト  
+・クリエイティブアイテムのレシピ  
+#### 実装予定  
+・より多くの機械や、マルチブロック設備  
+・各mod同士の連携  
+・レシピの研究システム  
+## インストール  
+[リリースページ](https://github.com/masyumero/true-industrial/releases)からZIPをダウンロードすることができます  
+インポート方法は下記を参照してください  
+[PrismLauncherを使用してmodpackをインポートする方法](https://prismlauncher.org/wiki/getting-started/download-modpacks/)
+## ライセンス  
 **buildscript**  
 Copyright (c) 2024 [Valine3gDev](https://github.com/Valine3gDev)  
 Released under the MIT license   
