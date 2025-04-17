@@ -14,20 +14,8 @@
 ・各mod同士の連携  
 ・レシピの研究システム  
 ## インストール  
-<<<<<<< HEAD
-[リリースページ](https://github.com/masyumero/true-industrial/releases)からZIPをダウンロードすることができます  
-=======
 [リリースページ](https://github.com/masyumero/true-industrial/releases)からZIPをダウンロードすることができます  
 インポート方法は下記を参照してください  
 [PrismLauncherを使用してmodpackをインポートする方法](https://prismlauncher.org/wiki/getting-started/download-modpacks/)  
 もしくは "modpack"+"インポート方法" などで調べてみるといいでしょう  
 また[アクションページ](https://github.com/masyumero/true-industrial/actions)から完璧な動作が保証されていないビルドがダウンロードできます
-## 注意  
-ゲームを進めている途中でパックをアップデードすることは推奨しません  
-また起動する際にCreateMODに関連したエラーが発生することがありますがその場合はゲームを再起動すればほとんどの場合は治ります  
-## ライセンス  
-**buildscript**  
-Copyright (c) 2024 [Valine3gDev](https://github.com/Valine3gDev)  
-Released under the MIT license   
-https://github.com/Valine3gDev/1000x-mekanism/blob/main/LICENSE
->>>>>>> 44e1fca3b08eab1ee6fd94a31c549457160a40ac
