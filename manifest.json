@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "true industrial",
-  "version": "",
-  "author": "",
+  "version": "alpha-0.0.7",
+  "author": "masyumero",
   "files": [
     {
       "projectID": 239286,
