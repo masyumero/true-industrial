@@ -1,0 +1,5 @@
+{
+    "ldlib":{
+        "connection": "kubejs:block/material/test/frame_ctm"
+    }
+}

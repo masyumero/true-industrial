@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+      "connection": "kubejs:block/machine/coils/copper/copper_coil_ctm"
+    }
+  }

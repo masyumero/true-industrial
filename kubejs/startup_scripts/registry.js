@@ -1,12 +1,33 @@
+//priority: 1
 StartupEvents.registry('item', event => {
 if(isNormalMode){
 	event
 			.create("projecte:philosophers_stone_nugget")
 			.texture("kubejs:item/philosophers_stone_nugget")
 }
+	event	
+			.create("enderium_flux_coil")
+			.texture("kubejs:item/enderium_flux_coil")
 	event
-			.create("trueindustrial:cosmilite")
-			.texture("kubejs:item/cosmilite")
+			.create("random_debug")
+	event	
+			.create("dyson_sphere_casing")
+	event	
+			.create("dyson_solar_battery")
+	event
+			.create("dyson_sphere_hatch")
+	event
+			.create("dyson_sphere_drone")
+global.energycompression.forEach(comp=>{
+	event
+			.create(`mekanism:energy_crystal_${comp.tier}`)
+})
+	event
+			.create("industriallib:elemental_catalyst")
+			.texture("kubejs:item/elemental_catalyst")
+	event
+			.create("mekanism:research_disk")
+			.texture("kubejs:item/research_disk")
 	event
 			.create("hostilenetworks:alfheim_prediction")
 			.texture("kubejs:item/alfheim_prediction")
@@ -77,7 +98,33 @@ StartupEvents.registry('mekanism:infuse_type', event =>{
 			.create('mekanism_plus:creative_infuse')
 			.color(13386234)
 })
-StartupEvents.registry("block", event=>{
+StartupEvents.registry("block", event =>{
+	event	
+			.create("beam_receiver")
+			.hardness(5)
+			.resistance(5)
+			.soundType("METAL")
+			.tagBlock('minecraft:mineable/pickaxe')
+            .tagBlock('minecraft:needs_iron_tool')
+			.textureAll("kubejs:block/beam_receiver")
+	event
+			.create("inactive_blackhole_unit")
+			.hardness(50)
+			.resistance(1000)
+			.soundType("METAL")
+			.textureAll("kubejs:block/mekanism/inactive_blackhole_unit")
+	event
+			.create("activity_blackhole_unit")
+			.hardness(50)
+			.resistance(1000)
+			.soundType("METAL")
+			.textureAll("kubejs:block/mekanism/activity_blackhole_unit")
+	event
+			.create("mekanism:research_station_casing")
+			.hardness(50)
+			.resistance(1000)
+			.soundType("METAL")
+			.textureAll("kubejs:block/machine/researchstation/casing")
 	event
 			.create("mekanism:infinite_unit")
 			.hardness(50)

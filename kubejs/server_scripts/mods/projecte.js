@@ -1,4 +1,5 @@
 ServerEvents.recipes(e=>{
+e.replaceInput({output:'projectexpansion:compact_sun',type:"minecraft:crafting_shaped"},'projectexpansion:final_star','botania:sunny_quartz')
 if (isNormalMode){
 e.recipes.mekanism.compressing(
   "projecte:philosophers_stone",
@@ -104,57 +105,6 @@ e.recipes.extendedcrafting.shaped_table(
     }
 )
 }
-   //e.recipes.extendedcrafting.shaped_table(
-   //    "projecte:philosophers_stone",
-   //    [
-   //        "ABCDEFEDGBA",
-   //        "BHIJKLKJIHB",
-   //        "CIMNOTONMIG",
-   //        "DJN6PQPUNJD",
-   //        "EKOP7R8POKE",
-   //        "FLZQRSRQVFL",
-   //        "EKOP9R0POKE",
-   //        "DJNYPQPWNJD",
-   //        "GIMNOXONMIC",
-   //        "BHIJKLKJIHB",
-   //        "ABGDEFEDCBA"
-   //    ],
-   //    {
-   //        "A":{item:"botania:dice"},
-   //        "B":{item:"avaritia:infinity_ingot"},
-   //        "C":{item:"powah:nitro_crystal_block"},
-   //        "D":{item:"powah:steel_energized"},
-   //        "E":{item:"mekanism_extras:infinite_control_circuit"},
-   //        "F":{item:"projectexpansion:gargantuan_star_omega"},
-   //        "G":{item:"quarryplus:adv_quarry"},
-   //        "H":{item:"extendedcrafting:luminessence"},
-   //        "I":{item:"thermal_extra:amethyst_dust"},
-   //        "J":{item:"botanicalmachinery:mana_emerald"},
-   //        "K":{item:"mekanism_extras:enriched_spectrum"},
-   //        "L":{item:"ad_astra_rocketed:tier_7_rocket"},
-   //        "M":{item:"thermal_more:mega_upgrade_augment"},
-   //        "N":{item:"draconicevolution:awakened_draconium_block"},
-   //        "O":{item:"draconicadditions:chaos_heart"},
-   //        "P":{item:"mekanismscience:pellet_neutron_source"},
-   //        "Q":{item:'mysticalagriculture:awakening_pedestal'},
-   //        "R":{item:"ad_astra_proxima_plus:refined_micyurite"},
-   //        "S":{item:'mysticalagriculture:awakening_altar'},
-   //        "T":Item.of('botania:lexicon', '{"botania:elven_unlock":1b}').weakNBT(),
-   //        "U":Item.of('patchouli:guide_book', '{"patchouli:book":"extendedcrafting:guide"}').weakNBT(),
-   //        "V":Item.of('patchouli:guide_book', '{"patchouli:book":"pneumaticcraft:book"}').weakNBT(),
-   //        "W":Item.of('patchouli:guide_book', '{"patchouli:book":"thermal:guidebook"}').weakNBT(),
-   //        "X":Item.of('patchouli:guide_book', '{"patchouli:book":"alchemistry:alchemistry_book"}').weakNBT(),
-   //        "Y":{item:'electrodynamics:guidebook'},
-   //        "Z":{item:'projectexpansion:knowledge_sharing_book'},
-   //        "6":Item.of('patchouli:guide_book', '{"patchouli:book":"bigreactors:erguide"}').weakNBT(),
-   //        "7":Item.of('patchouli:guide_book', '{"patchouli:book":"cyclic:guide_book"}').weakNBT(),
-   //        "8":Item.of('patchouli:guide_book', '{"patchouli:book":"ad_astra:astrodux"}').weakNBT(),
-   //        "9":Item.of('patchouli:guide_book', '{"patchouli:book":"industrialforegoing:industrial_foregoing"}').weakNBT(),
-   //        "0":Item.of('patchouli:guide_book', '{"patchouli:book":"mysticalagriculture:guide"}').weakNBT(),
-   //        
-   //    }
-   //)
-
     let inter = "projecte:incomplete_philosophers_stone"
     e.recipes.create.sequenced_assembly([
         "projecte:philosophers_stone"
@@ -184,7 +134,6 @@ e.recipes.extendedcrafting.shaped_table(
     e.recipes.create.deploying(inter,[inter, Item.of('patchouli:guide_book', '{"patchouli:book":"pneumaticcraft:book"}').weakNBT()]),
     e.recipes.create.deploying(inter,[inter, Item.of('patchouli:guide_book', '{"patchouli:book":"thermal:guidebook"}').weakNBT()]),
     e.recipes.create.deploying(inter,[inter, Item.of('patchouli:guide_book', '{"patchouli:book":"alchemistry:alchemistry_book"}').weakNBT()]),
-    e.recipes.create.deploying(inter,[inter, 'electrodynamics:guidebook']),
     e.recipes.create.deploying(inter,[inter, 'projectexpansion:knowledge_sharing_book']),
     e.recipes.create.deploying(inter,[inter, Item.of('patchouli:guide_book', '{"patchouli:book":"bigreactors:erguide"}').weakNBT()]),
     e.recipes.create.deploying(inter,[inter, Item.of('patchouli:guide_book', '{"patchouli:book":"cyclic:guide_book"}').weakNBT()]),
@@ -199,15 +148,12 @@ e.recipes.extendedcrafting.shaped_table(
     e.recipes.create.deploying(inter,[inter, 'create_new_age:nuclear_fuel']),
     e.recipes.create.deploying(inter,[inter, 'industrialforegoing:pink_slime_ingot']),
     e.recipes.create.deploying(inter,[inter, 'botania:gaia_ingot']),
-    e.recipes.create.deploying(inter,[inter, 'electrodynamics:ingothslasteel']),
     e.recipes.create.deploying(inter,[inter, 'mysticalagriculture:awakened_supremium_ingot']),
     e.recipes.create.deploying(inter,[inter, 'mekanismexplosives:explosive_antimatter']),
     e.recipes.create.deploying(inter,[inter, 'thermal_extra:abyssal_ingot']),
     e.recipes.create.deploying(inter,[inter, 'ironjetpacks:ultimate_coil']),
     e.recipes.create.deploying(inter,[inter, 'pneumaticcraft:plastic']),
     e.recipes.create.deploying(inter,[inter, 'pneumaticcraft:salmon_tempura']),
-    e.recipes.create.deploying(inter,[inter, 'twilightforest:giant_sword']),
-    e.recipes.create.deploying(inter,[inter, 'twilightforest:magic_map_focus']),
     e.recipes.create.deploying(inter,[inter, 'ad_extendra:juperium_ingot']),
     e.recipes.create.deploying(inter,[inter, 'vintageimprovements:redstone_module']),
     e.recipes.create.deploying(inter,[inter, 'nuclearcraft:depleted_fuel_californium_hecf_249_za']),

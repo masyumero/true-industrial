@@ -17,7 +17,6 @@ ServerEvents.recipes(e=>{
             Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:emerald"}').weakNBT(),
             Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:draconium"}').weakNBT(),
             Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:silver"}').weakNBT(),
-            Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:fieryingot"}').weakNBT(),
             Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:oak"}').weakNBT(),
             Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:copper"}').weakNBT(),
             Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:iron"}').weakNBT(),

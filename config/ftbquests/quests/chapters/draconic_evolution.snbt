@@ -5,7 +5,7 @@
 	group: "7C1A1AEF6A5AA1B0"
 	icon: "draconicevolution:reactor_core"
 	id: "2BAD50EE1BA75781"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

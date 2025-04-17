@@ -43,3 +43,5 @@ config\packmode.json
 config/powah.json5
 config/emi.css
 config\extendedcrafting\singularities
+result.json
+.assets_helper/links.json

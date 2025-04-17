@@ -50,7 +50,6 @@ ServerEvents.recipes(e=>{
       }
     )
     e.remove({ id: 'extendedcrafting:ultimate_singularity' })
-    e.remove({ output: "avaritia:infinity_catalyst" })
     e.custom({
       "type": "draconicevolution:fusion_crafting",
       "catalyst": {

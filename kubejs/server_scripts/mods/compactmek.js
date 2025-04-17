@@ -22,7 +22,7 @@ ServerEvents.recipes(e=>{
             B:'mekanismgenerators:fission_reactor_casing',
             C:'mekanismgenerators:fission_reactor_port',
             D:'mekanismgenerators:fission_reactor_logic_adapter',
-            E:'techreborn:iridium_alloy_ingot',
+            E:'chemlib:iridium_plate',
             F:'mekanismgenerators:control_rod_assembly',
             G:'mekanism_extras:naquadah_reactor_casing',
             H:'mekanismgenerators:fission_fuel_assembly',

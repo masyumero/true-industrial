@@ -1,0 +1,5 @@
+{
+    "ldlib":{
+        "connection": "kubejs:block/mekanism/ultimate_unit_ctm"
+    }
+}

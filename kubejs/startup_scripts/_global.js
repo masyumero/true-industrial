@@ -1,5 +1,107 @@
 //priority: 999
 Platform.mods.kubejs.name = 'True Industrial'
+global.energycompression=[
+    {
+        "tier":"9_1",
+        "count":"9", 
+        "lesser":"none"
+    },
+    {
+        "tier":"9_2",
+        "count":"81",
+        "lesser":"9_1"
+    },
+    {
+        "tier":"9_3",
+        "count":"729",
+        "lesser":"9_2"
+    },
+    {
+        "tier":"9_4",
+        "count":"6561",
+        "lesser":"9_3"
+    },
+    {
+        "tier":"9_5",
+        "count":"59049",
+        "lesser":"9_4"
+    },
+    {
+        "tier":"9_6",
+        "count":"531441",
+        "lesser":"9_5"
+    },
+    {
+        "tier":"9_7",
+        "count":"4782969",
+        "lesser":"9_6"
+    },
+    {
+        "tier":"9_8",
+        "count":"43046721",
+        "lesser":"9_7"
+    },
+    {
+        "tier":"9_9",
+        "count":"387420489",
+        "lesser":"9_8"
+    },
+    {
+        "tier":"9_10",
+        "count":"3486784401",
+        "lesser":"9_9"
+    }
+]
+global.botaniaTier=[
+    {
+        "tier":"elementium",
+        "block":'botania:dragonstone_block',
+        "item":'botania:dragonstone',
+        "ingot":'botania:elementium_ingot',
+        "unit":'mekanism:ultimate_unit',
+        "machinetier":"mechanical",
+    },
+    {
+        "tier":"malachite",
+        "block":'botanicalextramachinery:malachite_dragonstone_block',
+        "item":'botanicalextramachinery:malachite_dragonstone',
+        "ingot":'botanicalextramachinery:malachite_ingot',
+        "unit":'mekanism:absolute_unit',
+        "machinetier":"base",
+    },
+    {
+        "tier":"saffron",
+        "block":'botanicalextramachinery:saffron_dragonstone_block',
+        "item":'botanicalextramachinery:saffron_dragonstone',
+        "ingot":'botanicalextramachinery:saffron_ingot',
+        "unit":'mekanism:supreme_unit',
+        "machinetier":"upgraded",
+    },
+    {
+        "tier":"shadow",
+        "block":'botanicalextramachinery:shadow_dragonstone_block',
+        "item":'botanicalextramachinery:shadow_dragonstone',
+        "ingot":'botanicalextramachinery:shadow_ingot',
+        "unit":'mekanism:cosmic_unit',
+        "machinetier":"advanced",
+    },
+    {
+        "tier":"crimson",
+        "block":'botanicalextramachinery:crimson_dragonstone_block',
+        "item":'botanicalextramachinery:crimson_dragonstone',
+        "ingot":'botanicalextramachinery:crimson_ingot',
+        "unit":'mekanism:infinite_unit',
+        "machinetier":"ultimate",
+    },
+    {
+        "tier":"crystal",
+        "block":'botanicalextramachinery:crystal_dragonstone_block',
+        "item":'botanicalextramachinery:crystal_dragonstone',
+        "ingot":'botanicalextramachinery:crystal_ingot',
+        "unit":'mekanism:elite_unit',
+        "machinetier":"none",
+    },
+]
 global.unittier=[
     {
         "tier":"infinite",
@@ -65,7 +167,7 @@ global.hardsingularity=[
         'name': 'Energy Flow Chip',
         'colors': ['479cc8', 'afb5b7'],
         'ingredient': {
-            'item': 'techreborn:energy_flow_chip'
+            'item': 'jaopca:processors.protactinium'
         },
         'materialCount': 10000
     },
@@ -379,15 +481,6 @@ global.normalsingularity=[
             'item': 'avaritia:endest_pearl'
         },
         'materialCount': 10
-    },
-    {
-        'file': 'fieryingot',
-        'name': 'fiery ingot',
-        'colors': ['351005', '351005'],
-        'ingredient': {
-            'item': 'twilightforest:fiery_ingot'
-        },
-        'materialCount': 10000
     },
     {
         'file': 'fireball',

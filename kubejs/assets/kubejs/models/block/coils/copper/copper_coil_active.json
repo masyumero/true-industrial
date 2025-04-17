@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"bot_all": "kubejs:block/machine/coils/copper/copper_coil",
+		"top_all": "kubejs:block/machine/coils/copper/copper_coil_emissive",
+		"particle": "kubejs:block/machine/coils/copper/copper_coil"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#bot_all", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bot_all", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#bot_all", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bot_all", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bot_all", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bot_all", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#top_all", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#top_all", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#top_all", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#top_all", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_all", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top_all", "cullface": "down"}
+			}
+		}
+	]
+}

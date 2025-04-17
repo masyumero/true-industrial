@@ -49,5 +49,5 @@
 	ultimateLaserTurretEnergyCapacity = 160000
 	#Range of the Ultimate Laser Turret
 	#Range: 0.0 ~ 1000.0
-	ultimateLaserTurretRange = 1000.0
+	ultimateLaserTurretRange = 45.0
 

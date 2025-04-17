@@ -7,4 +7,6 @@
 	organicLiquidExtractor = "40000"
 	#Base energy storage (Joules).
 	seawaterPump = "40000"
+	#Base energy storage (Joules).
+	airCompressor = "40000"
 

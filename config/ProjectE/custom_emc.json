@@ -15,6 +15,10 @@
     {
       "item": "projecte:philosophers_stone_nugget",
       "emc": 9223372036854775807
+    },
+    {
+      "item": "tfmg:hardened_planks",
+      "emc": 16
     }
   ]
 }

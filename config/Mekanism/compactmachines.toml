@@ -53,4 +53,7 @@
 	#vertual volume of lower section
 	#Range: > 0
 	lowervolume = 500
+	#virtual height of compact thermal evaporation block
+	#Range: > 1
+	virtual_height = 36
 

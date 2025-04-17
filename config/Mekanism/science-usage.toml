@@ -7,4 +7,8 @@
 	organicLiquidExtractor = "100"
 	#Energy per operation tick (Joules).
 	seawaterPump = "100"
+	#Energy per operation tick (Joules).
+	airCompressor = "100"
+	#Energy per operation tick (Joules).
+	radiationIrradiator = "1000"
 

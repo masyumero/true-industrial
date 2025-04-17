@@ -4,97 +4,97 @@
 
 	#Universal Cables
 	[mekanism_extras."universal cables"]
-		#Internal buffer in Joules of each 'TIER' universal cable
+		#Internal buffer in Joules of each 'TIER' universal cable.(long)
 		absoluteUniversalCable = "144115188075856000"
-		#Internal buffer in Joules of each 'TIER' universal cable
+		#Internal buffer in Joules of each 'TIER' universal cable.(long)
 		supremeUniversalCable = "576460752303424000"
-		#Internal buffer in Joules of each 'TIER' universal cable
+		#Internal buffer in Joules of each 'TIER' universal cable.(long)
 		cosmicUniversalCable = "2305843009213690000"
-		#Internal buffer in Joules of each 'TIER' universal cable
+		#Internal buffer in Joules of each 'TIER' universal cable.(long)
 		infiniteUniversalCable = "9223372036854775807"
 
 	#Mechanical Pipes
 	[mekanism_extras."mechanical pipes"]
-		#Capacity of 'TIER' mechanical pipes in mB.
+		#Capacity of 'TIER' mechanical pipes in mB.(long)
 		absoluteMechanicalPipesCapacity = "144115188075856000"
-		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		#Pump rate of 'TIER' mechanical pipes in mB/t.(int)
 		absoluteMechanicalPipesPullAmount = "33554431"
-		#Capacity of 'TIER' mechanical pipes in mB.
+		#Capacity of 'TIER' mechanical pipes in mB.(long)
 		supremeMechanicalPipesCapacity = "576460752303424000"
-		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		#Pump rate of 'TIER' mechanical pipes in mB/t.(int)
 		supremeMechanicalPipesPullAmount = "134217727"
-		#Capacity of 'TIER' mechanical pipes in mB.
+		#Capacity of 'TIER' mechanical pipes in mB.(long)
 		cosmicMechanicalPipesCapacity = "2305843009213690000"
-		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		#Pump rate of 'TIER' mechanical pipes in mB/t.(int)
 		cosmicMechanicalPipesPullAmount = "536870911"
-		#Capacity of 'TIER' mechanical pipes in mB.
+		#Capacity of 'TIER' mechanical pipes in mB.(long)
 		infiniteMechanicalPipesCapacity = "9223372036854775807"
-		#Pump rate of 'TIER' mechanical pipes in mB/t.
+		#Pump rate of 'TIER' mechanical pipes in mB/t.(int)
 		infiniteMechanicalPipesPullAmount = "2147483647"
 
 	#Pressurized Tubes
 	[mekanism_extras."pressurized tubes"]
-		#Capacity of 'TIER' pressurized tubes in mB.
+		#Capacity of 'TIER' pressurized tubes in mB.(long)
 		absolutePressurizedTubesCapacity = "4096000"
-		#Pump rate of 'TIER' pressurized tubes in mB/t.
+		#Pump rate of 'TIER' pressurized tubes in mB/t.(long)
 		absolutePressurizedTubesPullAmount = "1024000"
-		#Capacity of 'TIER' pressurized tubes in mB.
+		#Capacity of 'TIER' pressurized tubes in mB.(long)
 		supremePressurizedTubesCapacity = "16384000"
-		#Pump rate of 'TIER' pressurized tubes in mB/t.
+		#Pump rate of 'TIER' pressurized tubes in mB/t.(long)
 		supremePressurizedTubesPullAmount = "4096000"
-		#Capacity of 'TIER' pressurized tubes in mB.
+		#Capacity of 'TIER' pressurized tubes in mB.(long)
 		cosmicPressurizedTubesCapacity = "65536000"
-		#Pump rate of 'TIER' pressurized tubes in mB/t.
+		#Pump rate of 'TIER' pressurized tubes in mB/t.(long)
 		cosmicPressurizedTubesPullAmount = "16384000"
-		#Capacity of 'TIER' pressurized tubes in mB.
+		#Capacity of 'TIER' pressurized tubes in mB.(long)
 		infinitePressurizedTubesCapacity = "262144000"
-		#Pump rate of 'TIER' pressurized tubes in mB/t.
+		#Pump rate of 'TIER' pressurized tubes in mB/t.(long)
 		infinitePressurizedTubesPullAmount = "65536000"
 
 	#Logistical Transporters
 	[mekanism_extras."logistical transporters"]
-		#Five times the travel speed in m/s of 'TIER' logistical transporter.
+		#Five times the travel speed in m/s of 'TIER' logistical transporter.(int)
 		absoluteLogisticalTransporterSpeed = "55"
-		#Item throughput rate of 'TIER' logistical transporters in items/half second.
+		#Item throughput rate of 'TIER' logistical transporters in items/half second.(int)
 		absoluteLogisticalTransporterPullAmount = "128"
-		#Five times the travel speed in m/s of 'TIER' logistical transporter.
+		#Five times the travel speed in m/s of 'TIER' logistical transporter.(int)
 		supremeLogisticalTransporterSpeed = "60"
-		#Item throughput rate of 'TIER' logistical transporters in items/half second.
+		#Item throughput rate of 'TIER' logistical transporters in items/half second.(int)
 		supremeLogisticalTransporterPullAmount = "256"
-		#Five times the travel speed in m/s of 'TIER' logistical transporter.
+		#Five times the travel speed in m/s of 'TIER' logistical transporter.(int)
 		cosmicLogisticalTransporterSpeed = "70"
-		#Item throughput rate of 'TIER' logistical transporters in items/half second.
+		#Item throughput rate of 'TIER' logistical transporters in items/half second.(int)
 		cosmicLogisticalTransporterPullAmount = "512"
-		#Five times the travel speed in m/s of 'TIER' logistical transporter.
+		#Five times the travel speed in m/s of 'TIER' logistical transporter.(int)
 		infiniteLogisticalTransporterSpeed = "100"
-		#Item throughput rate of 'TIER' logistical transporters in items/half second.
+		#Item throughput rate of 'TIER' logistical transporters in items/half second.(int)
 		infiniteLogisticalTransporterPullAmount = "1024"
 
 	#Thermodynamic Conductors
 	[mekanism_extras."thermodynamic conductors"]
-		#Conduction value of 'TIER' thermodynamic conductors.
+		#Conduction value of 'TIER' thermodynamic conductors.(long)
 		absoluteThermodynamicConductorConduction = "10"
-		#Heat capacity of 'TIER' thermodynamic conductors.
+		#Heat capacity of 'TIER' thermodynamic conductors.(long)
 		absoluteThermodynamicConductornCapacity = "1"
-		#Insulation value of 'TIER' thermodynamic conductor.
+		#Insulation value of 'TIER' thermodynamic conductor(long).
 		absoluteThermodynamicConductornInsulation = "400000"
-		#Conduction value of 'TIER' thermodynamic conductors.
+		#Conduction value of 'TIER' thermodynamic conductors.(long)
 		supremeThermodynamicConductorConduction = "15"
-		#Heat capacity of 'TIER' thermodynamic conductors.
+		#Heat capacity of 'TIER' thermodynamic conductors.(long)
 		supremeThermodynamicConductornCapacity = "1"
-		#Insulation value of 'TIER' thermodynamic conductor.
+		#Insulation value of 'TIER' thermodynamic conductor(long).
 		supremeThermodynamicConductornInsulation = "800000"
-		#Conduction value of 'TIER' thermodynamic conductors.
+		#Conduction value of 'TIER' thermodynamic conductors.(long)
 		cosmicThermodynamicConductorConduction = "20"
-		#Heat capacity of 'TIER' thermodynamic conductors.
+		#Heat capacity of 'TIER' thermodynamic conductors.(long)
 		cosmicThermodynamicConductornCapacity = "1"
-		#Insulation value of 'TIER' thermodynamic conductor.
+		#Insulation value of 'TIER' thermodynamic conductor(long).
 		cosmicThermodynamicConductornInsulation = "1000000"
-		#Conduction value of 'TIER' thermodynamic conductors.
+		#Conduction value of 'TIER' thermodynamic conductors.(long)
 		infiniteThermodynamicConductorConduction = "25"
-		#Heat capacity of 'TIER' thermodynamic conductors.
+		#Heat capacity of 'TIER' thermodynamic conductors.(long)
 		infiniteThermodynamicConductornCapacity = "1"
-		#Insulation value of 'TIER' thermodynamic conductor.
+		#Insulation value of 'TIER' thermodynamic conductor(long).
 		infiniteThermodynamicConductornInsulation = "4000000"
 
 	#Expand Radioactive Waste Barrel
@@ -135,9 +135,9 @@
 		#Output rate in Joules of Cosmic energy cubes.
 		cosmicOutput = "16384000"
 		#Maximum number of Joules Infinite energy cubes can store.
-		infiniteStorage = "65536000000"
+		infiniteStorage = "13947137604000000"
 		#Output rate in Joules of Infinite energy cubes.
-		infiniteOutput = "65536000"
+		infiniteOutput = "13947137604000000"
 
 	#Fluid Tanks
 	[mekanism_extras."fluid tanks"]
@@ -225,5 +225,5 @@
 		#Maximum number of Joules cosmic induction providers can output or accept.
 		eliteOutput = "67108864000"
 		#Maximum number of Joules infinite induction providers can output or accept.
-		ultimateOutput = "536870912000"
+		ultimateOutput = "9223372036854775807"
 

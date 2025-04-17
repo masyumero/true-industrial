@@ -1,3 +1,7 @@
 {
-	chapter_groups: [{ id: "7C1A1AEF6A5AA1B0", title: "mod" }]
+	chapter_groups: [
+		{ id: "729FC0DDE2C04D99", title: "メイン" }
+		{ id: "626C7E0629F1FDCA", title: "その他" }
+		{ id: "7C1A1AEF6A5AA1B0", title: "mod" }
+	]
 }

@@ -1,29 +1,96 @@
 ServerEvents.recipes(e=>{
-e.recipes.minecraft.crafting_shaped(
-  'mekanism:basic_item_output_bus',
+e.shaped(
+  'mekanism:advanced_control_circuit',
   [
-    " B ",
-    " C ",
-    "   "
+    "DCD",
+    "CBC",
+    "AAA"
   ],
   {
-    B:'mekanism:basic_unit',
-    C:"minecraft:chest"
+    "D":'mekanism:alloy_reinforced',
+    "C":'mekanism:basic_control_circuit',
+    "B":'nuclearcraft:plate_basic',
+    "A":'pneumaticcraft:empty_pcb'
   }
 )
-e.recipes.minecraft.crafting_shaped(
-  'trueindustrial:energy_input_hatch',
+e.replaceInput({id:"mekanism:metallurgic_infuser"},"mekanism:steel_casing","mekanism:basic_unit")
+e.replaceInput({id:"mekanism:precision_sawmill"},"mekanism:steel_casing","mekanism:basic_unit")
+e.replaceInput({id:"mekanism:crusher"},"mekanism:steel_casing","mekanism:basic_unit")
+e.replaceInput({id:"mekanism:crusher"},"redstone","mekanism:alloy_infused")
+e.replaceInput({id:"mekanism:energized_smelter"},"mekanism:steel_casing","mekanism:basic_unit")
+e.replaceInput({id:"mekanism:energized_smelter"},"redstone","mekanism:alloy_infused")
+e.remove({id: /mekanism:factory/ })
+e.replaceInput({id:"mekanism:transmitter/universal_cable/basic"},"#forge:dusts/redstone","#mekanism:alloys/infused")
+e.remove({id:"mekanism:metallurgic_infusing"})
+e.custom({
+  "type": "thermal_extra:component_assembly",
+  "energy": 5000,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": 'create_connected:control_chip'
+    },
+    {
+      "count": 1,
+      "item": 'tfmg:capacitor_'
+    },
+    {
+      "count": 2,
+      "item": 'tfmg:fuse'
+    },
+    {
+      "amount": 288,
+      "fluid": "nuclearcraft:electrum"
+    }
+  ],
+  "result": [
+    {
+      "item": 'mekanism:basic_control_circuit'
+    }
+  ]
+})
+e.remove({output:'mekanism_extras:absolute_control_circuit'})
+e.remove({output:'mekanism_extras:supreme_control_circuit'})
+e.remove({output:'mekanism_extras:cosmic_control_circuit'})
+e.remove({output:'mekanism_extras:infinite_control_circuit'})
+e.remove({output:'mekanism:basic_control_circuit'})
+e.remove({output:'mekanism:advanced_control_circuit'})
+e.remove({output:'mekanism:elite_control_circuit'})
+e.remove({output:'mekanism:ultimate_control_circuit'})
+e.shaped(
+  'mekanism:basic_control_circuit',
   [
     "ABA",
-    "BCB",
-    "ABA"
+    "CDC",
+    "EEE"
   ],
   {
-    A:"techreborn:advanced_alloy_plate",
-    B:'mekanism:basic_control_circuit',
-    C:"mekanism:basic_energy_cube"
+    "A":"create_new_age:overcharged_diamond_wire",
+    "B":"tfmg:capacitor_",
+    "C":"tfmg:fuse",
+    "D":"create_connected:control_chip",
+    "E":"createaddition:electrum_spool"
   }
 )
+e.shapeless(
+  'mekanism:energy_crystal_9_1',
+  ['9x mekanismmoremachine:crystal_energy']
+)
+global.energycompression.forEach(comp => {
+  let EnergyAmount = (5400000*comp.count)
+  e.recipes.mekanism.energy_conversion(`mekanism:energy_crystal_${comp.tier}`, EnergyAmount)
+  if(comp.lesser != "none")
+    e.recipes.minecraft.crafting_shapeless(`mekanism:energy_crystal_${comp.tier}`,[`9x mekanism:energy_crystal_${comp.lesser}`])
+})
+e.recipes.mekanism.energy_conversion("minecraft:bedrock",1)
+global.unittier.forEach(tier => {
+  e.shaped(`mekanism:${tier.tier}_item_output_bus`,[  " B ",  " C ",  "   "],{  B:`mekanism:${tier.tier}_unit`,  C:"minecraft:chest"})
+  e.shaped(`mekanism:${tier.tier}_item_input_bus`,[  " C ",  " B ",  "   "],{  B:`mekanism:${tier.tier}_unit`,  C:"minecraft:chest"})
+  e.shaped(`mekanism:${tier.tier}_fluid_output_hatch`,[  " B ",  " C ",  "   "],{  B:`mekanism:${tier.tier}_unit`,  C:"minecraft:bucket"})
+  e.shaped(`mekanism:${tier.tier}_fluid_input_hatch`,[  " C ",  " B ",  "   "],{  B:`mekanism:${tier.tier}_unit`,  C:"minecraft:bucket"})
+  e.shaped(`mekanism:${tier.tier}_energy_output_hatch`,[  " B ",  " C ",  "   "],{  B:`mekanism:${tier.tier}_unit`,  C:tier.circuit})
+  e.shaped(`mekanism:${tier.tier}_energy_input_hatch`,[  " C ",  " B ",  "   "],{  B:`mekanism:${tier.tier}_unit`,  C:tier.circuit})
+});
 e.recipes.minecraft.crafting_shaped(
   "mekanism:digital_assembly_table",
   [
@@ -32,7 +99,7 @@ e.recipes.minecraft.crafting_shaped(
     "DBD"
   ],
   {
-    A:"techreborn:advanced_alloy_plate",
+    A:'chemlib:iridium_plate',
     B:"mekanism:steel_casing",
     C:"ae2:crafting_monitor",
     D:"mekanism:basic_control_circuit"
@@ -53,7 +120,7 @@ e.recipes.minecraft.crafting_shaped(
 )
 e.remove({id:"mekanism:digital_miner"})
 e.recipes.mekanism.metallurgic_infusing(
-  'trueindustrial:cosmilite',
+  'kubejs:cosmic_ingot',
   "thermal_extra:abyssal_ingot",
   {
     infuse_type:"mekanism_extras:spectrum",
@@ -192,14 +259,6 @@ e.custom({
     "amount": 1
   }
 })
-//e.recipes.mekanism.crystallizing(
-//  "gas",
-//  'techreborn:uu_matter',
-//  {
-//    gas:"mekanism_matter:gases_universal_matter",
-//    amount:1000
-//  }
-//)
 //meka suit
 e.remove({id: 'mekanism:mekasuit_boots'})
 e.remove({id: 'mekanism:mekasuit_pants'})
@@ -221,8 +280,7 @@ e.custom({
     Item.of('mekanism_extras:infinite_control_circuit'),
     Item.of('solarpanels:photonic_energy_tablet'),
     Item.of('jaopca:processors.beryllium'),
-    Item.of('avaritia:neutronium_ingot'),
-    Item.of('vintageimprovements:fiery_sheet'),
+    Item.of('avaritia:neutron_ingot'),
     Item.of('create:precision_mechanism'),
     Item.of('thermalendergy:endergy_upgrade_3'),
     Item.of('avaritia:crystal_matrix_ingot'),
@@ -230,7 +288,6 @@ e.custom({
     Item.of('pneumaticcraft:module_expansion_card'),
     Item.of('mysticalexpansion:divinium_ingot'),
     Item.of('fluxnetworks:flux_core'),
-    Item.of('electrodynamics:wiresuperconductive'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
@@ -271,8 +328,7 @@ e.custom({
     Item.of('mekanism_extras:infinite_control_circuit'),
     Item.of('solarpanels:photonic_energy_tablet'),
     Item.of('jaopca:processors.beryllium'),
-    Item.of('avaritia:neutronium_ingot'),
-    Item.of('vintageimprovements:fiery_sheet'),
+    Item.of('avaritia:neutron_ingot'),
     Item.of('create:precision_mechanism'),
     Item.of('thermalendergy:endergy_upgrade_3'),
     Item.of('avaritia:crystal_matrix_ingot'),
@@ -280,7 +336,6 @@ e.custom({
     Item.of('pneumaticcraft:module_expansion_card'),
     Item.of('mysticalexpansion:divinium_ingot'),
     Item.of('fluxnetworks:flux_core'),
-    Item.of('electrodynamics:wiresuperconductive'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
@@ -321,8 +376,7 @@ e.custom({
     Item.of('mekanism_extras:infinite_control_circuit'),
     Item.of('solarpanels:photonic_energy_tablet'),
     Item.of('jaopca:processors.beryllium'),
-    Item.of('avaritia:neutronium_ingot'),
-    Item.of('vintageimprovements:fiery_sheet'),
+    Item.of('avaritia:neutron_ingot'),
     Item.of('create:precision_mechanism'),
     Item.of('thermalendergy:endergy_upgrade_3'),
     Item.of('avaritia:crystal_matrix_ingot'),
@@ -330,7 +384,6 @@ e.custom({
     Item.of('pneumaticcraft:module_expansion_card'),
     Item.of('mysticalexpansion:divinium_ingot'),
     Item.of('fluxnetworks:flux_core'),
-    Item.of('electrodynamics:wiresuperconductive'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
@@ -371,8 +424,7 @@ e.custom({
     Item.of('mekanism_extras:infinite_control_circuit'),
     Item.of('solarpanels:photonic_energy_tablet'),
     Item.of('jaopca:processors.beryllium'),
-    Item.of('avaritia:neutronium_ingot'),
-    Item.of('vintageimprovements:fiery_sheet'),
+    Item.of('avaritia:neutron_ingot'),
     Item.of('create:precision_mechanism'),
     Item.of('thermalendergy:endergy_upgrade_3'),
     Item.of('avaritia:crystal_matrix_ingot'),
@@ -380,7 +432,6 @@ e.custom({
     Item.of('pneumaticcraft:module_expansion_card'),
     Item.of('mysticalexpansion:divinium_ingot'),
     Item.of('fluxnetworks:flux_core'),
-    Item.of('electrodynamics:wiresuperconductive'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
     Item.of('minecraft:netherite_ingot'),
@@ -405,37 +456,27 @@ e.custom({
   "tier": "CHAOTIC",
   "total_energy": 2147483647
 })
-    e.custom({
-        "type":"mekanism:reaction",
-        "duration":5,
-        "energyRequired":1000,
-        "fluidInput":
-        {
-          "amount":100,
-          "fluid":"minecraft:water"
-        },
-        "gasInput":
-        {
-          "amount":100,
-          "gas":"mekanism_extras:polonium-208"
-        },
-        "gasOutput":
-        {
-          "amount":5000,
-          "gas":"mekanism:polonium"
-        },
-        "itemInput":
-        {
-          "ingredient":
-          {
-            "item":"mekanismscience:pellet_neutron_source"
-          }
-        },
-        "itemOutput":
-        {
-          "item":"thermal:steel_dust"
-        }
-      })
+e.custom({
+  "type":"mekanismscience:radiation_irradiating",
+  "gasInput":
+  {
+    "amount":4,
+    "gas":"mekanism_extras:polonium-208"
+  },
+  "itemInput":
+  {
+    "ingredient":
+    {
+      "item":"mekanismscience:pellet_neutron_source"
+    }
+  },
+  "output":
+  {
+    "amount":500,
+    "chemicalType":"gas",
+    "gas":"mekanism:polonium"
+  }
+})
 //fissile fuel line
       //curium
       e.custom({
@@ -450,23 +491,11 @@ e.custom({
         }
       })
       e.custom({
-        "type":"mekanism:reaction",
-        "duration":5,
-        "energyRequired":1000,
-        "fluidInput":
-        {
-          "amount":100,
-          "fluid":"minecraft:water"
-        },
+        "type":"mekanismscience:radiation_irradiating",
         "gasInput":
         {
           "amount":100,
           "gas":"mekanismscience:americium"
-        },
-        "gasOutput":
-        {
-          "amount":500,
-          "gas":'mekanism_plus:curium'
         },
         "itemInput":
         {
@@ -475,9 +504,11 @@ e.custom({
             "item":"mekanismscience:pellet_neutron_source"
           }
         },
-        "itemOutput":
+        "output":
         {
-          "item":"thermal:steel_dust"
+          "amount":500,
+          "chemicalType":"gas",
+          "gas":"mekanism_plus:curium"
         }
       })
       //californium

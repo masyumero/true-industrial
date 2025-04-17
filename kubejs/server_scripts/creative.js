@@ -8,20 +8,19 @@ ServerEvents.recipes(e=>{
     ],
     {
       A:'mekanism:pellet_antimatter',
-      B:'techreborn:iridium_alloy_ingot',
+      B:'chemlib:iridium_plate',
       C:'storagedrawers:emerald_storage_upgrade',
       D:'storagedrawers:void_upgrade',
-      E:'techreborn:industrial_circuit'
+      E:'mekanism_extras:infinite_control_circuit'
     }
   )
   e.recipes.extendedcrafting.shapeless_table(
     'mekanism_plus:creative_ingot',
     [
       'extendedcrafting:enhanced_redstone_ingot',
-      'techreborn:iridium_alloy_ingot',
+      'chemlib:iridium_plate',
       'megacells:sky_steel_ingot',
       'advanced_ae:quantum_alloy',
-      'twilightforest:fiery_ingot',
       'thermalendergy:stellarium_ingot',
       'powah:steel_energized',
       'draconicevolution:awakened_draconium_ingot',
@@ -31,10 +30,9 @@ ServerEvents.recipes(e=>{
       'nuclearcraft:extreme_ingot',
       'vintageimprovements:vanadium_ingot',
       'mekanism:ingot_refined_glowstone',
-      'electrodynamics:ingotsuperconductive',
       'thermal:rose_gold_ingot',
       'pneumaticcraft:ingot_iron_compressed',
-      "trueindustrial:cosmilite"
+      "kubejs:cosmic_ingot"
     ]
   )
   e.recipes.minecraft.crafting_shaped(

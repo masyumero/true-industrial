@@ -1,0 +1,5 @@
+{
+    "ldlib":{
+        "connection": "kubejs:block/beam_receiver_ctm"
+    }
+}
